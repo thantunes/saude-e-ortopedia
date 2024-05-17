@@ -1,0 +1,27 @@
+{
+  "rich-text#shelf4-title": {
+    "props": {
+      "text": "## Barras de Suporte",
+      "blockClass": "titleSection"
+    }
+  },
+  "flex-layout.row#shelf4-title": {
+    "children": ["rich-text#shelf4-title"],
+    "props": { "blockClass": "row-title" }
+  },
+  "flex-layout.row#shelf4": {
+    "children": [
+      "list-context.product-list#demo4"
+    ],
+    "props": {
+      "blockClass": "row-vitrine"
+    }
+  },
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

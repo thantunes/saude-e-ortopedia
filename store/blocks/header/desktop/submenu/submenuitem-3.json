@@ -1,0 +1,38 @@
+{
+  "submenu#almofadas-e-colchoes": {
+    "children": [
+      "flex-layout.row#row-sub-almofadas-e-colchoes"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","almofadas-e-colchoes"]
+    }
+  },
+  "flex-layout.row#row-sub-almofadas-e-colchoes": {
+    "children":[
+      "flex-layout.col#col-01-sub-almofadas-e-colchoes"
+    ],
+    "props":{
+      "blockClass":["row-sub-almofadas-e-colchoes","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-almofadas-e-colchoes":{
+    "children":[
+      "menu#menu-almofadas-e-colchoes"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-almofadas-e-colchoes": {
+    "props": {
+      "categoryId": "1",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

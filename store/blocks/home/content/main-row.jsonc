@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#main-banners":{
+    "children":[
+      "flex-layout.col#main-banners-01"
+    ],
+    "props":{
+      "blockClass":["main-banners","line"]
+    },
+    "title":"Row - Main Banners"
+  },
+  "flex-layout.col#main-banners-01":{
+    "children":[
+      "list-context.image-list#demo"
+    ],
+    "props":{
+      "blockClass": "main-banner-02"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/banners/banner_home.jpg",
+          "mobileImage": "assets/banners/banner_home-m.jpg"
+        },
+        {
+          "image": "assets/banners/banner_home.jpg",
+          "mobileImage": "assets/banners/banner_home-m.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "stopOnHover": true,
+        "timeout": 4000
+      },
+      "infinite": true,
+      "showPaginationDots": "never", 
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel-mainBanners"
+    }
+  }
+}

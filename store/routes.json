@@ -1,0 +1,32 @@
+{
+  "store.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+  "store.custom#nossas-lojas": {
+    "path": "/nossas-lojas"
+  },
+  "store.custom#formas-de-pagamentos": {
+    "path": "/formas-de-pagamentos"
+  },
+  "store.custom#politica-de-entrega": {
+    "path": "/politica-de-entrega"
+  },
+  "store.custom#politica-de-privacidade":{
+    "path": "/politica-de-privacidade"
+  },
+  "store.custom#trocas-devolucoes":{
+    "path": "/trocas-devolucoes"
+  },
+  "store.blog-home": {
+    "path": "/blog"
+   },
+   "store.blog-category": {
+    "path": "/blog/category/:categoryslug_id"
+   },
+   "store.blog-post": {
+    "path": "/blog/post/:slug_id"
+   },
+   "store.blog-search-result": {
+    "path": "/blog/search/:term_id"
+   }
+}

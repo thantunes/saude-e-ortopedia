@@ -1,0 +1,130 @@
+{
+  "vtex.menu@2.x:menu#atendimento": {
+      "props": {
+          "orientation": "vertical"
+      },
+      "children": [
+          "menu-item#atendimento",
+          "menu-item#atendimento1",
+          "menu-item#atendimento2",
+          "menu-item#atendimento3",
+          "menu-item#atendimento4",
+          "menu-item#atendimento5"
+      ] 
+  },
+  "menu-item#atendimento": {
+      "props": {
+        "type": "custom",
+        "blockClass": "menu-title",
+        "itemProps": {
+          "type": "internal",
+          "text": "Atendimento"
+        }
+      }
+  },
+  "menu-item#atendimento1": {
+    "props": {
+      "itemProps": { "text": "Online: (21) 2147-4511"}
+    }
+  },
+  "menu-item#atendimento2": {
+    "props": {
+      "itemProps": { "text": "Barra (21) 3325-0288"}
+    }
+  },
+  "menu-item#atendimento3": { 
+    "props": {
+      "itemProps": { "text": "Catete (21) 2225-6363"}
+    }
+  },
+  "menu-item#atendimento4": {
+    "props": {
+      "itemProps": { "text": "Ipanema (21) 3813-5577"}
+    }
+  },
+  "menu-item#atendimento5": {
+    "props": {
+      "itemProps": { "text": "Botafogo (21) 2497-3132"}
+    }
+  },
+
+  "vtex.menu@2.x:menu#atendimento2": {
+    "props": {
+        "orientation": "vertical"
+    },
+    "children": [
+        "menu-item#atendimento",
+        "menu-item#atendimento6",
+        "menu-item#atendimento7"
+    ] 
+  },
+  "menu-item#atendimento6": {
+    "props": {
+      "itemProps": { "text": "Seg. á Sex: 9:00 - 18:00"}
+    }
+  },
+  "menu-item#atendimento7": {
+    "props": {
+      "itemProps": { "text": "Sábado: 9:00 - 13:00"}
+    }
+  },
+
+  "vtex.menu@2.x:menu#social": {
+    "props": {
+        "orientation": "vertical",
+        "marginTop": 3, 
+        "blockClass": "social"
+    },
+    "children": [
+        "menu-item#social", 
+        "social-networks"
+    ] 
+  },
+  "menu-item#social": {
+    "props": {
+      "blockClass": "menu-title",
+      "itemProps": { "text": "Siga-nos"}
+    }
+  },
+  "social-networks": {
+    "props": { 
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.row#security": { 
+    "children": [
+      "flex-layout.col#security1",
+      "flex-layout.col#security2",
+      "flex-layout.col#security3"
+    ],
+    "props": { 
+      "blockClass": "row-sec", 
+      "horizontalAlign": "center", 
+      "verticalAlign": "center"
+    }
+  },
+  "flex-layout.col#security1": {"children": ["image#logo-sec1"]},
+  "flex-layout.col#security2": {"children": ["image#logo-sec2"]},
+  "flex-layout.col#security3": {"children": ["image#logo-sec3"]},
+  "image#logo-sec1": {  "props": {"src": "assets/loco-sec-1.png"} },
+  "image#logo-sec2": {  "props": {"src": "assets/loco-sec-2.png"} },
+  "image#logo-sec3": {  "props": {"src": "assets/loco-sec-3.png"} },
+
+  "flex-layout.row#pay": {
+    "children": [
+      "image#logo-pay"
+    ],
+    "props": { "blockClass": "row-pay" }
+  },
+  "image#logo-pay": {  "props": {"src": "assets/bandeiras.png"} } 
+} 

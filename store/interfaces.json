@@ -1,0 +1,17 @@
+{
+  "short-description":{
+    "component":"ShortDescription"
+  },
+  "product-brand":{
+    "component":"ProductBrandName"
+  },
+  "sold-and-delivered": {
+    "component":"SoldAndDelivered"
+  },
+  "blog": {
+    "component": "Blog"
+  },
+  "TitleBlog": {
+    "component": "TitleBlog"
+  }
+}

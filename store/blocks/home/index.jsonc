@@ -1,0 +1,63 @@
+{
+  "store.home": {
+    "blocks": [
+      "blog",
+      "flex-layout.row#main-banners",
+      //"__fold__.experimentalLazyAssets",
+      "flex-layout.row#shelf1-title", 
+      "flex-layout.row#shelf1",
+      "flex-layout.row#home-highlight-collections",
+      "flex-layout.row#shelf2-title", 
+      "flex-layout.row#shelf2",
+      "flex-layout.row#bnr-bf",
+      "flex-layout.row#shelf3-title", 
+      "flex-layout.row#shelf3",
+      "flex-layout.row#highlight-departments",
+      //"flex-layout.row#grid-content-banners",
+      "flex-layout.row#home-seo-text",
+      "TitleBlog",
+      "blog-all-posts.wordpress-all-posts",
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "TitleBlog": {
+    "props": {
+      "Title": "rich-text#blog-title"
+    }
+  },
+  "toggle-layout#blog": {
+    "title": "Blog",
+    "children": ["flex-layout.row#blog"]
+  },
+  "flex-layout.row#blog": {
+    "props": {
+      "blockClass": "blog"
+    },
+    "children": [
+      "rich-text#blog-title",
+      "blog-all-posts.wordpress-all-posts"
+    ]
+  },
+  "rich-text#blog-title": {
+    "title": "Blog Tíulo",
+    "props": {
+      "id": "blog",
+      "text": "Últimas do blog",
+      "blockClass": "blog-title"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots":"never",
+      "blockClass": "shelf"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#col-01-newsletter",
+      "flex-layout.col#col-02-newsletter",
+      "flex-layout.col#col-03-newsletter"
+      //"flex-layout.col#col-04-newsletter"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["newsletter","centralizer"],
+      "colGap": 8
+    },
+    "title": "Row - Newsletter"
+  },
+  "flex-layout.col#col-01-newsletter":{
+    "children":[
+      "image#newsletter"
+    ],
+    "props":{
+      "blockClass": ["col-newsletter","col-01"]
+    }
+  },
+
+  "image#newsletter":{
+    "props":{
+      "src":"assets/icons/icon-newsletter.svg",
+      "blockClass": "img-newsletter"
+    }
+  },
+
+  "flex-layout.col#col-02-newsletter":{
+    "children":[
+      "rich-text#title-newsletter"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass": ["col-newsletter","col-02"]
+    }
+  },
+
+  "flex-layout.col#col-03-newsletter":{
+    "children":[
+      "newsletter-form"
+    ],
+    "props":{
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": ["col-newsletter","col-03"]
+    }
+  },
+
+  "rich-text#title-newsletter":{
+    "props":{
+      "text": "**RECEBA DICAS,\n OFERTAS E NOVIDADES**",
+      "blockClass": "title-newsletter"
+    }
+  },
+  "flex-layout.col#col-04-newsletter":{
+    "children":[
+      "rich-text#contact-newsletter"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass": ["col-newsletter","col-04"]
+    }
+  },
+
+  "rich-text#contact-newsletter":{
+    "props":{
+      "text": "[Ventas por teléfono **55 9999-9999**](https://api.whatsapp.com/send?phone=551199998888)",
+      "blockClass": "contact-newsletter"
+    }
+  },
+
+  "newsletter-form": {
+    "children": [
+      //"newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email":{
+    "props": {
+      "placeholderText": "Digite seu e-mail"
+    }
+  },
+  "newsletter-input-name":{
+    "props": {
+      "placeholderText": "Nome"
+    }
+  }
+}

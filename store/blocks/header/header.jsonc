@@ -1,0 +1,270 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#telemarketing",
+      "sticky-layout#desktop-sticky-header",
+      "flex-layout.row#mega-menu"
+    ]
+  },
+  "flex-layout.row#telemarketing": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#desktop-sticky-header": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#sticky-header-content-desktop"
+    ]
+  },
+  "flex-layout.row#sticky-header-content-desktop": {
+    "props": {
+      "blockClass": ["main-header","centralizer"],
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ]
+  },
+  "flex-layout.col#search-bar":{
+    "children":["overlay-trigger#search-bar"],
+    "props":{
+      "blockClass": ["col-main-header", "col-search-bar"],
+      "verticalAlign": "middle"
+    }
+  },
+  "overlay-trigger#search-bar": {
+    "children": [
+      "image#trigger-search-bar",
+      "overlay-layout#search-bar"
+    ],
+    "props": {
+      "blockClass": "trigger-search-bar"
+    }
+  },
+  "image#trigger-search-bar":{
+    "props":{
+      "blockClass": "img-trigger-search-bar",
+      "src":"assets/icons/icon-search.svg"
+    }
+  },
+  "overlay-layout#search-bar":{
+    "props":{
+      "placement": "bottom",
+      "blockClass": "overlay-search-bar"
+    },
+    "children":[
+      "search-bar"
+    ]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"]
+  },
+
+  /*MOBILE SEARCH*/
+  "flex-layout.col#mobile-search-bar":{
+    "children":["search-bar#mobile"],
+    "props":{
+      "blockClass": ["col-main-header", "col-search-bar"],
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2#mobile"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2#mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "autocompleteWidth": 100,
+      "productLayout": "HORIZONTAL"
+    }
+  },
+
+  "flex-layout.col#col-link-orders":{
+    "children":["rich-text#link-orders"],
+    "props": {
+      "blockClass": ["col-topbar","col-link-orders"],
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#link-orders":{
+    "props":{
+      "text": "[Devolución \n **y Pedidos**](/account/orders)",
+      "blockClass":"topbar-text"
+    },
+    "title": "Header - My Orders Button"
+  },
+  "flex-layout.col#col-wishlist":{
+    "children":[
+      "rich-text#link-wishlist"
+    ],
+    "props":{
+      "blockClass":["col-topbar","col-wishlist"]
+    }
+  },
+  "rich-text#link-wishlist":{
+    "props":{
+      "text":"[Ver mis \n **Favoritos**](/account/#wishlist)",
+      "blockClass":"topbar-text"
+    },
+    "title": "Header - Wishlist Button"
+  },
+  "flex-layout.col#login":{
+    "children": ["login"],
+    "props":{
+      "blockClass": ["col-topbar", "col-login"],
+      "verticalAlign": "middle"
+    }
+  },
+  "login":{
+    "props":{
+      "showIconProfile": false,
+      "hideIconLabel": true
+    }
+  },
+  "flex-layout.col#minicart":{
+    "children": ["minicart.v2"],
+    "props":{
+      "blockClass": ["col-main-header", "col-minicart"],
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo - Saúde e Ortopedia",
+      "href": "/",
+      "url": "assets/logo-saude-e-ortopedia.png",
+      "width": "205"
+    },
+    "title": "Logo - Saúde e Ortopedia"
+  },
+  "header-layout.mobile": {
+    "children": [
+      //"flex-layout.row#top-notification",
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ],
+    "props":{
+      "blockClass":"mobile-sticky-header"
+    }
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "flex-layout.col#spacer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "flex-layout.col#login",
+      "flex-layout.col#minicart"
+    ],
+    "props": {
+      "blockClass": ["main-header-mobile","centralizer"],
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "flex-layout.col#mobile-search-bar"
+    ],
+    "props": {
+      "blockClass": ["main2-header-mobile"],
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["mega-menu"],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#spacer",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo - Saúde e Ortopedia",
+      "href": "/",
+      "url": "assets/logo-saude-e-ortopedia2.png", 
+      "width": "210"
+    },
+    "title": "Logo - Saúde e Ortopedia"
+  }
+
+}

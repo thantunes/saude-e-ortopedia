@@ -1,0 +1,108 @@
+{
+  "rich-text#title-bf": {
+    "props": {
+      "text": "## Confira os Kits",
+      "blockClass": ["row-container", "titleSection","centralizer"]
+    }
+  },
+  "flex-layout.row#bnr-bf": {
+    "props": {
+      "blockClass": ["bnr-bf","flex-col"] 
+    },
+    "children": [
+      "rich-text#title-bf",
+      "flex-layout.row#bnr-bfull"
+    ]
+  },
+  "flex-layout.row#bnr-bfull": {
+    "props": {
+      "blockClass": ["row-container"],
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#bnr1", 
+      "flex-layout.col#bnr2", 
+      "flex-layout.col#bnr3"
+    ]
+  },
+  "flex-layout.col#bnr1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [ "image#img1", "rich-text#bnr-text1" ]
+  },
+  "flex-layout.col#bnr2": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [ "image#img2", "rich-text#bnr-text2" ]
+  },
+  "flex-layout.col#bnr3": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [ "image#img3", "rich-text#bnr-text3" ]
+  },
+  "rich-text#shelf5-title": {
+    "props": {
+      "text": "## Barras de Suporte",
+      "blockClass": "titleSection"
+    }
+  },
+  "image#img1": {
+    "props": {
+      "src": "assets/banners/bannerKit.jpg",
+      "alt": "Black Friday",
+      "maxHeight": 300,
+      "maxWidth": 350,
+      "link": {
+        "url": "#",
+        "title": "Black Friday"
+      }
+    }
+  },
+  "image#img2": {
+    "props": {
+      "src": "assets/banners/bannerKit.jpg",
+      "alt": "Black Friday",
+      "maxHeight": 300,
+      "maxWidth": 350,
+      "link": {
+        "url": "#",
+        "title": "Black Friday"
+      }
+    }
+  },
+  "image#img3": {
+    "props": {
+      "src": "assets/banners/bannerKit.jpg",
+      "alt": "Black Friday",
+      "maxHeight": 300,
+      "maxWidth": 350,
+      "link": {
+        "url": "#",
+        "title": "Black Friday"
+      }
+    }
+  },
+  "rich-text#bnr-text1": {
+    "props": {
+      "text": "## Calsas \n It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+      "blockClass": "bnr-text"
+    }
+  },
+
+  "rich-text#bnr-text2": {
+    "props": {
+      "text": "## Blusas \n It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+      "blockClass": "bnr-text"
+    }
+  },
+
+  "rich-text#bnr-text3": {
+    "props": {
+      "text": "## Bodys \n It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+      "blockClass": "bnr-text"
+    }
+  }
+}

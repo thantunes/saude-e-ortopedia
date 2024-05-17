@@ -1,0 +1,17 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--conforto-do-paciente) {
+  z-index: 9;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--esporte-e-fisioterapia) {
+  left: -16px;
+}

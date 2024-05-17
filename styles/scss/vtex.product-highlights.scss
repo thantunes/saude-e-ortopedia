@@ -1,0 +1,17 @@
+.productHighlightWrapper--collection {
+  top: 10px;
+  left: 5px;
+  position: relative;
+  @media(max-width: 748px){
+    top: 5px;
+  }
+}
+
+.productHighlightText {
+  background: antiquewhite;
+  border-radius: 5px;
+  padding: 5px 10px;
+  @media(max-width: 748px){
+    font-size: 11px;
+  }
+}

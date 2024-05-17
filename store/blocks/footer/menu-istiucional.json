@@ -1,0 +1,104 @@
+{
+    "vtex.menu@2.x:menu#institucional": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#institucional",
+            "menu-item#inst-1",
+            "menu-item#inst-2",
+            "menu-item#pol-1",
+            "menu-item#pol-2"
+        ]
+    },
+    "menu-item#institucional": {
+        "props": {
+          "id": "menu-item-inst",
+          "type": "custom",
+          "iconId": null,
+          "highlight": true,
+          "blockClass": "menu-title",
+          "itemProps": {
+            "type": "internal",
+            "noFollow": false,
+            "tagTitle": "Institucional",
+            "text": "Institucional"
+          }
+        }
+    },
+    "menu-item#inst-1": {
+        "props": {
+          "id": "menu-item-inst-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/quem-somos",
+            "noFollow": false,
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
+          }
+        }
+    },
+    "menu-item#inst-2": {
+        "props": {
+          "id": "menu-item-inst-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nossas-lojas",
+            "noFollow": false,
+            "tagTitle": "Nossas Lojas",
+            "text": "Nossas Lojas"
+          }
+        }
+    },
+    "menu-item#pol-1": {
+        "props": {
+          "id": "menu-item-pol-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/formas-de-pagamentos",
+            "noFollow": false,
+            "tagTitle": "Pagamentos e Envios",
+            "text": "Pagamentos e Envios"
+          }
+        }
+    },
+    "menu-item#pol-2": {
+        "props": {
+          "id": "menu-item-pol-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/trocas-e-devoluces",
+            "noFollow": false,
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        }
+    },
+    "menu-item#pol-3": {
+        "props": {
+          "id": "menu-item-pol-3",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/politica-de-privacidade",
+            "noFollow": false,
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
+          }
+        }
+    }
+}

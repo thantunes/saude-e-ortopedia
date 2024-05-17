@@ -1,0 +1,32 @@
+{
+  "submenu#mobilidade": {
+    "children": [
+      "flex-layout.row#row-sub-mobilidade"
+    ],
+    "props": {
+        "blockClass": ["main-submenu","mobilidade"]
+    }
+  },
+  "flex-layout.row#row-sub-mobilidade": {
+    "children":[
+      "flex-layout.col#sub-mobilidade"
+    ],
+    "props":{
+      "blockClass":["row-sub-mobilidade","row-sublevel"]
+    }
+  },
+  "flex-layout.col#sub-mobilidade":{
+    "children":[
+      "menu#menu-mobilidade"
+    ],
+    "props":{
+      "blockClass":"col-sub"
+    }
+  },
+  "menu#menu-mobilidade": {
+    "props": {
+      "categoryId": "10",
+      "blockClass": ["menu-categorias","mobilidade"]
+    }
+  }
+}

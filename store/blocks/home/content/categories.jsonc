@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#home-highlight-categories":{
+    "children":[
+      "list-context.image-list#categories"
+    ],
+    "props":{
+      "blockClass":["centralizer","home-categories"]
+    },
+    "title":"Row - Categories"
+  },
+
+  "list-context.image-list#categories": {
+    "children":["slider-layout#categories"],
+    "props":{
+      "preload":true,
+      "maxHeight":210,
+      "blockClass":["home-category"],
+      "images":[
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#categories":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":6,
+        "tablet":5,
+        "phone":2
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass":"categories",
+      "infinite": true
+    }
+  }
+
+}

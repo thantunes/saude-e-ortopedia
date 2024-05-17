@@ -1,0 +1,221 @@
+/*Menu deskop*/
+.vtex-menu-2-x-menuContainerNav--main-menu {
+    .vtex-menu-2-x-menuContainer--main-menu {
+        @include flexbox(flex, row, wrap, space-between, center, center);
+        > li {
+            max-width: 100px;
+            position: relative;
+            .nowrap {
+                white-space: normal;
+            }
+            .vtex-menu-2-x-styledLinkContent {
+                @include flexbox(flex, column, wrap, flex-start, center, center);
+                font-family: $font-custom2;
+                font-size: 13px;
+                text-align: center;
+            }
+            .vtex-menu-2-x-styledLinkContainer {
+                margin: 0 10px;
+                padding: 10px 0;
+            }
+            .vtex-menu-2-x-styledLink  {
+                color: #fff;
+            }
+        }
+    }
+
+    section.vtex-menu-2-x-submenu--main-submenu {
+        justify-content: flex-start;
+        li {
+            width: 260px;
+        }
+    }
+    .vtex-menu-2-x-submenuContainer--main-submenu {
+        ul.vtex-menu-2-x-menuContainer--menu-categorias {
+            .vtex-menu-2-x-styledLink {
+                color: #000;
+            }
+        }
+    }
+    .vtex-menu-2-x-menuContainer {
+        > li:last-child {
+            .vtex-menu-2-x-submenuWrapper {
+              right: 0;
+              left: auto;
+              width: 280px;
+            }
+        }
+    }
+
+    .vtex-menu-2-x-menuContainer--menu-categorias {
+      flex-direction: initial;
+      flex-wrap: wrap;
+    }
+}
+
+.vtex-menu-2-x-styledLinkContent--menu-categorias{
+  flex-flow: wrap !important;
+}
+
+.vtex-menu-2-x-submenuWrapper--main-submenu{
+  width: 280px;
+  padding: 10px;
+  z-index: 9;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--mega-menu .vtex-flex-layout-0-x-stretchChildrenWidth {
+    flex: auto;
+}
+
+ul > div.vtex-menu-2-x-styledLinkContainer{
+    display: none;
+}
+
+.vtex-checkout-summary-0-x-summaryItemContainer {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#proceed-to-checkout {
+    background: #7eb218;
+}
+
+button#proceed-to-checkout div {
+    font-size: 0;
+}
+
+button#proceed-to-checkout div:before {
+    content: "Ir para o Carrinho";
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+
+.vtex-menu-2-x-menuContainerNav a:hover{
+    text-decoration: underline;
+}
+
+.vtex-store-components-3-x-searchBarInnerContainer--search-mobile {
+    padding: 0 11px;
+    .vtex-input-prefix__group {
+        max-width: 100%;
+    }
+    span.vtex-input__suffix {
+        @include for-mobile {
+            background: none;
+        }
+        .vtex-store-components-3-x-searchBarIcon {
+            &::after {
+                display: none;
+                @include for-desktop {
+                    display: block;
+                }
+            }
+        }
+        .vtex-store-components-3-x-searchIcon--search-mobile {
+            color: $color-primary;
+        }
+    }
+
+}
+/*Menu Mobile*/
+.vtex-store-drawer-0-x-drawer {
+    min-width: 375px !important;
+    .vtex-store-drawer-0-x-childrenContainer {
+        .vtex-menu-2-x-menuContainerNav {
+            width: 100%;
+            position: relative;
+            z-index: 2;
+            background: #7EB218;
+        }
+    }
+    .vtex-menu-2-x-submenuAccordion {
+        .vtex-menu-2-x-styledLinkContent {
+            font-size: 14px;
+            font-weight: normal;
+            padding: 5px 0 5px 48px;
+        }
+        .vtex-menu-2-x-menuContainer  {
+            > div {
+                display: none;
+            }
+        }
+    }
+}
+
+.vtex-login-2-x-container {
+    .items-center.pv2 {
+        align-items: flex-start;
+    }
+    .vtex-login-2-x-label {
+        padding-left: 2px !important;
+    }
+    .vtex-login-2-x-profile {
+        display: block;
+        padding-top: 10px;
+    }
+
+}
+div.vtex-flex-layout-0-x-flexRow--minha-conta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    button {
+        background-color: $color-primary;
+        width: calc(100vw - 75px);
+        padding: 15px 0;
+        border-bottom-left-radius: 12px;
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $color-primary;
+        }
+    }
+    .vtex-login-2-x-label {
+        font-size: 0;
+        padding: 0;
+        &::before,
+        &::after {
+            background: none;
+            content: "Entrar";
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            width: auto;
+            height: auto;
+            display: inline-block;
+            text-transform: none;
+        }
+        &::after {
+            content: "Criar Conta";
+            display: inline-block;
+            border-left: 2px solid #97C73A;
+            margin-left: 20px;
+            padding-left: 20px;
+        }
+    }
+}
+
+.vtex-sticky-layout-0-x-wrapper--mobile-sticky-header {
+    background-color: red;
+}
+.vtex-store-components-3-x-searchBarContainer {
+    input.vtex-styleguide-9-x-input,
+    span.vtex-input__suffix  {
+        background: none !important;
+    }
+}
+#proceed-to-checkout {
+    background: #03A639;
+    border: 0;
+    border-radius: 10px;
+}
+body .vtex-search-2-x-biggy-autocomplete {
+    top: 49px;
+}
+
+.vtex-menu-2-x-submenuWrapper--conforto-do-paciente{
+  width: 840px;
+}

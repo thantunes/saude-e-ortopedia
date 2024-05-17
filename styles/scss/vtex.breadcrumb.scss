@@ -1,0 +1,105 @@
+@import './variables.scss';
+
+.container {
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  font-family: Helvetica, Arial, sans-serif;
+
+  .arrow {
+    color: $textPrimaryColor;
+  }
+}
+
+.caretIcon{
+  color: $textSecondaryColor;
+}
+
+
+.homeLink {
+  padding-left: 0;
+  padding-top: 2px;
+  margin-left: 0;
+  &::before {
+    content: "Home";
+    position: relative;
+    left: 3px;
+  }
+
+  .homeIcon {
+    display: none;
+  }
+}
+
+
+.link{
+  margin-left: 0;
+  font-size: 13px;
+  color: $textSecondaryColor;
+  text-transform: initial;
+  margin-bottom: 0;
+
+  &:hover {
+    color: $textSecondaryColor;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--pdp-breadcrumb) .container{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 25px;
+  text-align: center;
+
+  .term,
+  .link{
+    padding-top: 4px;
+    color: #868686;
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 400!important;
+    text-transform: lowercase;
+    &::first-letter{
+      text-transform: uppercase;
+    }
+  }
+
+  .arrow,
+  .termArrow{
+    font-size: 0;
+    &::before{
+      content: "|";
+      font-size: 18px;
+      color: $textPrimaryColor;
+    }
+  }
+
+  .arrow{
+    &::before{
+      color: $textSecondaryColor
+    }
+  }
+
+  .term{
+    color: $textPrimaryColor;
+    line-height: 19px;
+    position: relative;
+    top: -1px;
+    .termArrow{
+      line-height: 23px;
+      &::before{
+        color: $textPrimaryColor;
+      }
+    }
+  }
+
+  .homeLink{
+    &::before{
+      padding-top: 2px;
+      font-size: 14px;
+    }
+  }
+}
+
+.term{
+  font-size: 13px;
+  font-weight: 500;
+}

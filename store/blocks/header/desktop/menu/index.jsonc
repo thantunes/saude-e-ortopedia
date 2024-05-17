@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#mega-menu-new": {
+    "props": {
+      "blockClass":"super-menu"  
+    },
+    "children": ["mega-menu"]
+  },
+  "mega-menu": {
+    "props": {
+      "defaultDepartmentActive": "Tete",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  }
+}

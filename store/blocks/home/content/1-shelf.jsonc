@@ -1,0 +1,27 @@
+{
+  "rich-text#shelf1-title": {
+    "props": {
+      "text": "## Cadeiras de Rodas mais vendidas",
+      "blockClass": ["row-container","titleSection"]
+    }
+  },
+  "flex-layout.row#shelf1-title": {
+    "children": ["rich-text#shelf1-title"],
+    "props": { "blockClass": "row-title" }
+  },
+  "flex-layout.row#shelf1": {
+    "children": [
+      "list-context.product-list#demo1"
+    ],
+    "props": {
+      "blockClass": ["row-container","row-vitrine"]
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

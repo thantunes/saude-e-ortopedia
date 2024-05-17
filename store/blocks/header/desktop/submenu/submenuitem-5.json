@@ -1,0 +1,38 @@
+{
+  "submenu#produtos-ortopedicos": {
+    "children": [
+      "flex-layout.row#row-sub-produtos-ortopedicos"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","produtos-ortopedicos"]
+    }
+  },
+  "flex-layout.row#row-sub-produtos-ortopedicos": {
+    "children":[
+      "flex-layout.col#col-01-sub-produtos-ortopedicos"
+    ],
+    "props":{
+      "blockClass":["row-sub-produtos-ortopedicos","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-produtos-ortopedicos":{
+    "children":[
+      "menu#menu-produtos-ortopedicos"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-produtos-ortopedicos": {
+    "props": {
+      "categoryId": "9",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

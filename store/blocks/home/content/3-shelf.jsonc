@@ -1,0 +1,27 @@
+{
+  "rich-text#shelf3-title": {
+    "props": {
+      "text": "## Aparelhos em destaque",
+      "blockClass": ["row-container", "titleSection"]
+    }
+  },
+  "flex-layout.row#shelf3-title": { 
+    "children": ["rich-text#shelf3-title"],
+    "props": { "blockClass": "row-title" }
+  },
+  "flex-layout.row#shelf3": {
+    "children": [
+      "list-context.product-list#demo3"
+    ],
+    "props": {
+      "blockClass": ["row-container", "row-vitrine"]
+    }
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

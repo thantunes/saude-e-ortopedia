@@ -1,0 +1,23 @@
+$breakpoint-mobile: 1023px;
+$breakpoint-tablet: 700px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-large: 1400px;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+$color-background: #fff;
+$color-primary: #095EB5;
+$color-primary-light: #095EB5;
+
+$color-link: #095EB5;
+
+$font-custom: 'Roboto', sans-serif;
+$font-custom2: 'Montserrat', sans-serif;
+
+$border-color: #DDDDDD;
+$border-input: 2px solid $border-color;
+
+$page-width: 1272px;
+$url-assets: "https://saudeeortopedia.vtexassets.com/assets/vtex/assets-builder/saudeeortopedia.store/0.0.1/imgs/";

@@ -1,0 +1,118 @@
+@import './variables.scss';
+
+.showingProducts{
+    margin-top: 40px;
+}
+
+.orderByDropdown{
+  .orderByButton{
+    background-color: transparent;
+  }
+}
+
+.orderByOptionsContainer{
+  @media(max-width: 1024px){
+    z-index: 99;
+    top: initial;
+  }
+}
+
+.filterTitle{
+  font-weight: 400;
+  color: black;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.filter__container{
+  border: 1px solid #eaeaea;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.gallery--search-gallery{
+  padding: 0;
+}
+
+.totalProducts--layout{
+  text-align: left;
+  padding-left: 1.3rem;
+  padding-right: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb) :global(.vtex-breadcrumb-1-x-container){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 0;
+  margin-top: -5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb) :global(.vtex-breadcrumb-1-x-link),
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb) :global(.vtex-breadcrumb-1-x-term){
+  margin-left:0px;
+  padding: 0 10px 0 15px;
+  color: #999;
+}
+
+.galleryTitle--layout{
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  color: $textPrimaryColor;
+  @media(max-width: 1023px){
+    font-size: 16px;
+  }
+  @media(min-width: 1024px){
+    padding-left: 1rem;
+    font-size: 24px;
+    color: $secondaryColor;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+
+.galleryItem{
+  position: relative;
+  :global(.vtex-product-summary-2-x-container){
+    margin: 0;
+  }
+}
+
+.galleryItem--search-gallery--normal{
+  :global(.vtex-product-summary-2-x-container){
+    position: relative;
+    margin: 0 auto!important;
+  }
+}
+
+.filterItem{
+  :global(.vtex-checkbox__inner-container){
+    width: $sizeCheckboxFilters;
+    height: $sizeCheckboxFilters;
+    border-width: 1px;
+    border-color: #CCCCCC;
+  }
+  :global(.vtex-checkbox__container){
+    width: $sizeCheckboxFilters;
+    height: $sizeCheckboxFilters;
+    :global(.vtex-checkbox__box-wrapper){
+      width: $sizeCheckboxFilters;
+      height: $sizeCheckboxFilters;
+    }
+    :global(.vtex-checkbox__input){
+      width: $sizeCheckboxFilters;
+      height: $sizeCheckboxFilters;
+    }
+  }
+  :global(.vtex-checkbox__label){
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+    margin: 0 0 10px 0;
+    position: relative;
+    top: 1px;
+  }
+}

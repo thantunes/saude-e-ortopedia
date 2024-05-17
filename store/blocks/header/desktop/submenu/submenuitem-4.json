@@ -1,0 +1,38 @@
+{
+  "submenu#travesseiros-e-capas": {
+    "children": [
+      "flex-layout.row#row-sub-travesseiros-e-capas"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","travesseiros-e-capas"]
+    }
+  },
+  "flex-layout.row#row-sub-travesseiros-e-capas": {
+    "children":[
+      "flex-layout.col#col-01-sub-travesseiros-e-capas"
+    ],
+    "props":{
+      "blockClass":["row-sub-travesseiros-e-capas","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-travesseiros-e-capas":{
+    "children":[
+      "menu#menu-travesseiros-e-capas"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-travesseiros-e-capas": {
+    "props": {
+      "categoryId": "91",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

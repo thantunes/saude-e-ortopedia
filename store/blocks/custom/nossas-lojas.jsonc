@@ -1,0 +1,58 @@
+{
+    "store.custom#nossas-lojas": {
+      "blocks": [
+        //"flex-layout.row#banner-nossas-lojas", 
+        "flex-layout.row#title-nossas-lojas", 
+        "flex-layout.row#nossas-lojas-content"
+      ]
+    },
+    "flex-layout.row#banner-nossas-lojas": {
+      "children": ["image#banner-nossas-lojas"],
+      "props": {
+        "marginTop": 6,
+        "fullWidth": true,
+        "blockClass": ["banner-institucionale"]
+      },
+      "title": "Line banner"
+    },
+    "image#banner-nossas-lojas":{
+      "props":{
+        "src": "assets/banners/banner-institucional.jpg"
+      }
+    },
+    "flex-layout.row#title-nossas-lojas": {
+      "children": ["rich-text#title-nossas-lojas"],
+      "props": {
+        "marginTop": 6,
+        "fullWidth": true,
+        "blockClass": ["title","centralizer","centralizer-institucional"]
+      },
+      "title": "Line título"
+    },
+    "rich-text#title-nossas-lojas": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "# Nossas Lojas",
+        "blockClass": "intitucional-title"
+      }
+    },
+    "flex-layout.row#nossas-lojas-content": {
+      "children": ["rich-text#description-nossas-lojas"],
+      "props": {
+        "fullWidth": false,
+        "blockClass": ["description","centralizer","centralizer-institucional"]
+      },
+      "title": "Line conteúdo"
+    },
+    "rich-text#description-nossas-lojas": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. \n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. \n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "font": "t-heading-5",
+        "blockClass": "description"
+      }
+    }
+  }
+  

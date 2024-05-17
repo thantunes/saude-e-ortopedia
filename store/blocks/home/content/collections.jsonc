@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#home-highlight-collections":{
+    "children":[
+      "list-context.image-list#collections"
+    ],
+    "props":{
+      "blockClass":["centralizer","home-collections","line"]
+    },
+    "title":"Row - Collections"
+  },
+
+  "list-context.image-list#collections": {
+    "children":["slider-layout#collections"],
+    "props":{
+      "preload":true,
+      "maxHeight":210,
+      "blockClass":["home-collections"],
+      "images":[
+        {
+          "image": "assets/banners/collection-01.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/collection-02.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/collection-03.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/collection-04.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/collection-05.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#collections":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":6,
+        "tablet":5,
+        "phone":2
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass":"collections",
+      "infinite": true
+    }
+  }
+
+}

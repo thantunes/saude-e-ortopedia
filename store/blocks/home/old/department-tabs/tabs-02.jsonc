@@ -1,0 +1,170 @@
+{
+    "flex-layout.row#row-home-tabs-02": {
+      "title": "Line - Tabs 02",
+      "children": [
+        "flex-layout.col#col-home-tabs-02-item-01"
+      ],
+      "props":{
+          "blockClass": ["row-carousel-shelf","row-separate","centralizer","line"]
+      }
+    },
+    "flex-layout.col#col-home-tabs-02-item-01": {
+      "children":[
+        "rich-text#home-tabs-02-title",
+        "flex-layout.row#subrow-home-tabs-02"
+      ]
+    },
+    "flex-layout.row#subrow-home-tabs-02":{
+      "children":[
+        "flex-layout.col#subcol-02-home-tabs-02"
+      ]
+    },
+
+    "flex-layout.col#subcol-02-home-tabs-02":{
+      "children": ["tab-layout#home-tabs-02-layout"],
+      "props": {
+        "blockClass": "subcol-02-tab-layout"
+      }
+    },
+
+    "rich-text#home-tabs-02-title": {
+      "props": {
+        "text": "## Câmeras Microscópios mais buscados",
+        "blockClass": "titleSection"
+      }
+    },
+    "tab-layout#home-tabs-02-layout":{
+      "children": [
+        "tab-list#home-tabs-02-list",
+        "tab-content#home-tabs-02-content"
+      ],
+      "props": {
+        "blockClass": ["tabs","tabs-home"],
+        "defaultActiveTabId": "home-tabs-02-item-01"
+      }
+    },
+
+    "tab-list#home-tabs-02-list": {
+      "children": [
+        //"tab-list.item#home-tabs-02-item-01",
+        //"tab-list.item#home-tabs-02-item-02",
+        //"tab-list.item#home-tabs-02-item-03"
+        //"tab-list.item#home-tabs-02-item-04"
+      ],
+      "props":{
+        "blockClass": "list-tabs-home"
+      },
+      "title": "Tab Menu List"
+    },
+    "tab-list.item#home-tabs-02-item-01": {
+      "props": {
+        "tabId": "home-tabs-02-item-01",
+        "label": "Alarme Automotivo",
+        "defaultActiveTab": true
+      },
+      "title": "Item 01"
+    },
+    "tab-list.item#home-tabs-02-item-02": {
+      "props": {
+        "tabId": "home-tabs-02-item-02",
+        "label": "Auto-Falantes"
+      },
+      "title": "Item 02"
+    },
+    "tab-list.item#home-tabs-02-item-03": {
+      "props": {
+        "tabId": "home-tabs-02-item-03",
+        "label": "Carregador Veicular"
+      },
+      "title": "Item 03"
+    },
+    "tab-list.item#home-tabs-02-item-04": {
+      "props": {
+        "tabId": "home-tabs-02-item-04",
+        "label": "Controle Automotivo",
+        "blockClass": "item-hide-mobile"
+      },
+      "title": "Item 04"
+    },
+    "tab-content#home-tabs-02-content": {
+      "children": [
+        "tab-content.item#home-tabs-02-item-01",
+        "tab-content.item#home-tabs-02-item-02",
+        "tab-content.item#home-tabs-02-item-03",
+        "tab-content.item#home-tabs-02-item-04"
+      ],
+      "props":{
+        "blockClass": "content-tabs-home"
+      },
+      "title": "Lista Tab Content"
+    },
+    "tab-content.item#home-tabs-02-item-01": {
+      "children": [
+        "list-context.product-list#home-tabs-02-shelf-01"
+      ],
+      "props": {
+        "tabId": "home-tabs-02-item-01"
+      },
+      "title": "Content 01"
+    },
+    "tab-content.item#home-tabs-02-item-02": {
+      "children": [
+        "list-context.product-list#home-tabs-02-shelf-02"
+      ],
+      "props": {
+        "tabId": "home-tabs-02-item-02"
+      },
+      "title": "Content 02"
+    },
+    "tab-content.item#home-tabs-02-item-03": {
+      "children": [
+        "list-context.product-list#home-tabs-02-shelf-03"
+      ],
+      "props": {
+        "tabId": "home-tabs-02-item-03"
+      },
+      "title": "Content 03"
+    },
+    "tab-content.item#home-tabs-02-item-04": {
+      "children": [
+        "list-context.product-list#home-tabs-02-shelf-04"
+      ],
+      "props": {
+        "tabId": "home-tabs-02-item-04"
+      },
+      "title": "Content 04"
+    },
+
+    "list-context.product-list#home-tabs-02-shelf-01": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 01"
+    },
+    "list-context.product-list#home-tabs-02-shelf-02": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 02"
+    },
+    "list-context.product-list#home-tabs-02-shelf-03": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 03"
+    },
+    "list-context.product-list#home-tabs-02-shelf-04": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 04"
+    }
+  }

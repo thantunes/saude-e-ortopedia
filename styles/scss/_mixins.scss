@@ -1,0 +1,6 @@
+@mixin transform($property, $time, $type) {
+    -webkit-transition: $property $time $type;
+    -ms-transition: $property $time $type;
+    transition: $property $time $type;
+}
+// .box { @include transition(all, .12s, linear); }

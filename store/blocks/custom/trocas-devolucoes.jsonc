@@ -1,0 +1,58 @@
+{
+  "store.custom#trocas-devolucoes": { 
+      "blocks": [
+        //"flex-layout.row#banner-perguntas", 
+        "flex-layout.row#title-perguntas", 
+        "flex-layout.row#perguntas-content"
+      ]
+    },
+    "flex-layout.row#banner-perguntas": {
+      "children": ["image#banner-perguntas"],
+      "props": {
+        "marginTop": 6,
+        "fullWidth": true,
+        "blockClass": ["banner-institucionale"]
+      },
+      "title": "Line banner"
+    },
+    "image#banner-perguntas":{
+      "props":{
+        "src": "assets/banners/banner-institucional.jpg"
+      }
+    },
+    "flex-layout.row#title-perguntas": {
+      "children": ["rich-text#title-perguntas"],
+      "props": {
+        "marginTop": 6,
+        "fullWidth": true,
+        "blockClass": ["title","centralizer","centralizer-institucional"]
+      },
+      "title": "Perguntas Frequentes"
+    },
+    "rich-text#title-perguntas": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "# Perguntas Frequentes",
+        "blockClass": "intitucional-title"
+      }
+    },
+    "flex-layout.row#perguntas-content": {
+      "children": ["rich-text#description-perguntas"],
+      "props": {
+        "fullWidth": false,
+        "blockClass": ["description","centralizer","centralizer-institucional"]
+      },
+      "title": "Line conteúdo"
+    },
+    "rich-text#description-perguntas": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Para agilizar o seu atendimento listamos abaixo algumas respostas mais frequentes de nossos clientes. \n\n __1- Qual a garantida oferecida para cada equipamento?__ \n R: Pedimos que consulte a garantia diretamente no manual de cada equipamento. \n\n __2- Vocês oferecem assistência técnica?__ \n R: Sim, diretamente com cada fabricante do produto. \n\n __3- Tem algum custo para solicitar assistência técnica para reparos ou troca de componentes?__ \n R: Caso o produto esteja dentro do prazo de garantia e dentro das condições normais de uso não haverá custos. Caso o produto esteja fora do prazo de garantia, será efetuado um orçamento. Para ambos os casos o frete é por conta do cliente. \n\n __4- Você possuem todas as peças de reposição dos equipamentos?__ \n R: Sim. Caso não encontre diretamente em nossa loja virtual, por favor nos solicite via telefone ou e-mail. \n\n __5- Fiz um pedido, mas ao utilizar percebi que o mesmo não atende minhas necessidades. Pode efetuar a troca?__ \n R: Não, pois após a utilização do produto ou equipamento, a Global Trade Technology não aceita devolução. \n\n __6- Ao receber o meu pedido, vi que efetuei a compra errada no site. Mesmo sem abrir a embalagem eu posso efetuar a troca pelo produto correto?__ \n R: Sim, desde que o mesmo esteja na embalagem original e sem uso. Os custos com frente para a troca é de responsabilidade do cliente. \n\n __7- Caso o produto seja entregue errado ou com problema de fabricação, de quem será o custo do frete?__ \n R: Para estes casos, o frete será de responsabilidade da Global Trade Technology. \n\n __8- Em caso de erro de compra do cliente, ou envio para assistência técnica que não seja devido a problemas de fabricação, de quem será o custo do frete?__ \n R: Para esses casos, o frete será de responsabilidade do cliente. \n\n __9- Posso efetuar compras no site como Pessoa Física ou Pessoa Jurídica?__ \n R: Não, apenas CNPJ.",
+        "font": "t-heading-5",
+        "blockClass": "description"
+      }
+    }
+  }
+  

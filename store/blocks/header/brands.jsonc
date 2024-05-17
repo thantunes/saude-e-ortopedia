@@ -1,0 +1,104 @@
+{
+    "vtex.menu@2.x:submenu#marcas": {
+      "children": [
+        "rich-text#marca-titulo",
+        "flex-layout.row#marca1",
+        "flex-layout.row#marca2"
+      ],
+      "props": {
+        "blockClass": ["menu-marcas"],
+        "width": "500px"
+      }
+  
+    },
+    
+    "flex-layout.row#marca1":{
+        "children": ["image#marca1", "image#marca2", "image#marca3"]
+    },
+
+    "flex-layout.row#marca2":{
+        "children": ["image#marca4", "image#marca5", "image#marca6"]
+    },
+
+    "rich-text#marca-titulo": {
+        "props": {
+          "text": "Nossas Marcas",
+          "blockClass": "title-marcas"
+        }
+      },
+
+    "image#marca1": {
+        "props": {
+          "src": "assets/brands/bio-pet.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "logo-marcas",
+          "height": "83px",
+          "title": "Bio Pet",
+          "alt": "Bio Pet"
+        }
+    },
+    "image#marca2": {
+        "props": {
+          "src": "assets/brands/feater.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "logo-marcas",
+          "height": "83px",
+          "title": "Feater",
+          "alt": "Feater"
+        }
+    },
+    "image#marca3": {
+        "props": {
+          "src": "assets/brands/centrilab.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "logo-marcas",
+          "height": "83px",
+          "title": "Centrilab",
+          "alt": "Centrilab"
+        }
+    },
+    "image#marca4": {
+        "props": {
+          "src": "assets/brands/global-equipamentos.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "logo-marcas",
+          "height": "83px",
+          "title": "Global Equipamentos",
+          "alt": "Global Equipamentos"
+        }
+    },
+    "image#marca5": {
+        "props": {
+          "src": "assets/brands/global-glass.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "logo-marcas",
+          "height": "83px",
+          "title": "Global Glass",
+          "alt": "Global Glass"
+        }
+    },
+    "image#marca6": {
+        "props": {
+          "src": "assets/brands/global-analyzer.jpg",
+          "link": {
+            "url": "#"
+          },
+          "blockClass": "logo-marcas",
+          "height": "83px",
+          "title": "Global Analyzer",
+          "alt": "Global Analyzer"
+        }
+    }
+
+  }
+  

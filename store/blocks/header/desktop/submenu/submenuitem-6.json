@@ -1,0 +1,38 @@
+{
+  "submenu#aparelhos": {
+    "children": [
+      "flex-layout.row#row-sub-aparelhos"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","aparelhos"]
+    }
+  },
+  "flex-layout.row#row-sub-aparelhos": {
+    "children":[
+      "flex-layout.col#col-01-sub-aparelhos"
+    ],
+    "props":{
+      "blockClass":["row-sub-aparelhos","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-aparelhos":{
+    "children":[
+      "menu#menu-aparelhos"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-aparelhos": {
+    "props": {
+      "categoryId": "17",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

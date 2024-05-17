@@ -1,0 +1,80 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+html, body, #root {
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+body .hover-b--action-secondary {
+    &:hover {
+        background: none;
+    }
+}
+@media (min-width: 700px) {
+
+}body .hover-b--action-secondary {
+    &:hover,
+    &:active,
+    &:focus {
+        background: none;
+        border-color: transparent;
+    }
+}
+body button {
+    &:focus {
+        outline: 0;
+    }
+}
+[class*="mb-default"] {
+    margin-bottom: 20px;
+}
+.vtex-flex-layout-0-x-flexRow {
+
+    &.vtex-flex-layout-0-x-flexRow--whatsapp {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 60px;
+  }
+
+    &.vtex-flex-layout-0-x-flexRow--banners {
+        margin-bottom: 20px;
+    }
+    &.vtex-flex-layout-0-x-flexRow--banner-full {
+        .vtex-store-components-3-x-container {
+            max-width: 100%;
+        }
+    }
+    &.vtex-flex-layout-0-x-flexRow--between {
+        .vtex-flex-layout-0-x-flexRowContent {
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+    }
+}
+div.vtex-flex-layout-0-x-flexCol--row-type {
+    @include for-desktop {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+}
+div.vtex-flex-layout-0-x-flexRowContent--row-container,
+div[class*="--row-container"] {
+    max-width: $page-width;
+    margin: 0 auto;
+    width: 100%;
+}

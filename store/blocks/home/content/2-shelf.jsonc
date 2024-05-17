@@ -1,0 +1,29 @@
+{
+  "rich-text#shelf2-title": {
+    "props": {
+      "text": "## Conforto mais buscados",
+      "blockClass": ["row-container", "titleSection"]
+    }
+  },
+  "flex-layout.row#shelf2-title": {
+    "children": ["rich-text#shelf2-title"],
+    "props": { 
+      "blockClass": ["row-container", "row-title"]
+    }
+  },
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#demo2"
+    ],
+    "props": {
+      "blockClass": ["row-container", "row-vitrine"]
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

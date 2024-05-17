@@ -1,0 +1,38 @@
+{
+  "submenu#meias-de-compressao": {
+    "children": [
+      "flex-layout.row#row-sub-meias-de-compressao"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","meias-de-compressao"]
+    }
+  },
+  "flex-layout.row#row-sub-meias-de-compressao": {
+    "children":[
+      "flex-layout.col#col-01-sub-meias-de-compressao"
+    ],
+    "props":{
+      "blockClass":["row-sub-meias-de-compressao","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-meias-de-compressao":{
+    "children":[
+      "menu#menu-meias-de-compressao"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-meias-de-compressao": {
+    "props": {
+      "categoryId": "4",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

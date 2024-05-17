@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+.product-identifier{
+  margin-right: 20px;
+  font-size: 14px;
+
+  .product-identifier__value{
+    color: $primaryColor;
+    font-weight: 500;
+  }
+
+  .product-identifier__label{
+    font-size: 0;
+    
+    &::before{
+      content: "COD.";
+      font-size: 14px;
+    }
+  }
+}

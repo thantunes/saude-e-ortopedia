@@ -1,0 +1,34 @@
+/*Fonts*/
+$mainFont: "montserrat", sans-serif;
+$secondaryFont: "roboto", sans-serif;
+
+/*Layout colors*/
+$primaryColor: #00001C;
+$secondaryColor: #036DA6;
+$tertiaryColor: #03A639;
+$quaternaryColor: #095EB5;
+
+/*general*/
+$radius: 6px;
+$shadow: 0 2px 3px rgba(0,0,0,0.15);
+$topBarTextColor: white;
+$topBarTextSize: 14px;
+$topBarLineHeight: 18px;
+$topBarTextPadding: 5px 10px;
+$textColorNewsletter: $secondaryColor;
+$borderColorLight: #E3E3E3;
+$sizeCheckboxFilters: 22px;
+
+/*Text colors*/
+$textPrimaryColor: #333;
+$textSecondaryColor: #808080;
+
+/*Layout sizes*/
+$maxWidth: 1272px;
+
+/*transition*/
+$defaultTransition: all .12s linear;
+
+/*Buy button color*/
+$buyButtonColor: $secondaryColor;
+$buyButtonColorHover: lighten($secondaryColor,10%);

@@ -1,0 +1,38 @@
+{
+  "submenu#esporte-e-fisioterapia": {
+    "children": [
+      "flex-layout.row#row-sub-esporte-e-fisioterapia"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","esporte-e-fisioterapia"]
+    }
+  },
+  "flex-layout.row#row-sub-esporte-e-fisioterapia": {
+    "children":[
+      "flex-layout.col#col-01-sub-esporte-e-fisioterapia"
+    ],
+    "props":{
+      "blockClass":["row-sub-esporte-e-fisioterapia","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-esporte-e-fisioterapia":{
+    "children":[
+      "menu#menu-esporte-e-fisioterapia"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-esporte-e-fisioterapia": {
+    "props": {
+      "categoryId": "19",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

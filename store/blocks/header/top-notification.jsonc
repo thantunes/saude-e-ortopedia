@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#top-notification": {
+    "props": {
+      "blockClass": ["centralizer","top-infos"],
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#top-notification"
+    ],
+    "title": "Row - Top Notification"
+  },
+  "rich-text#top-notification":{
+    "props":{
+      "text": "ENVÍO GRÁTIS A PARTIR DE R$899!",
+      "blockClass": ["top-text","top-notification"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title": "Text"
+  }
+}

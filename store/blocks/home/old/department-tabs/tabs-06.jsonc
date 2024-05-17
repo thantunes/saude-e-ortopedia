@@ -1,0 +1,210 @@
+{
+    "flex-layout.row#row-home-tabs-06": {
+      "title": "Line - Tabs 06",
+      "children": [
+        "flex-layout.col#col-home-tabs-06-item-01"
+      ],
+      "props":{
+          "blockClass": ["row-carousel-shelf","row-separate","centralizer","line"]
+      }
+    },
+    "flex-layout.col#col-home-tabs-06-item-01": {
+      "children":[
+        "rich-text#home-tabs-06-title",
+        "flex-layout.row#subrow-home-tabs-06"
+      ]
+    },
+    "flex-layout.row#subrow-home-tabs-06":{
+      "children":[
+        "flex-layout.col#subcol-01-home-tabs-06",
+        "flex-layout.col#subcol-02-home-tabs-06"
+      ]
+    },
+    "flex-layout.col#subcol-01-home-tabs-06":{
+      "children": ["image#image-home-tabs-06"],
+      "props": {
+        "width": "20%",
+        "blockClass": "subcol-01-tab-layout"
+      }
+    },
+    "flex-layout.col#subcol-02-home-tabs-06":{
+      "children": ["tab-layout#home-tabs-06-layout"],
+      "props": {
+        "width": "80%",
+        "blockClass": "subcol-02-tab-layout"
+      }
+    },
+    "image#image-home-tabs-06":{
+      "props": {
+        "src": "assets/banners/home-banner-department-tabs.png",
+        "blockClass": "img-tab-layout"
+      }
+    },
+    "rich-text#home-tabs-06-title": {
+      "props": {
+        "text": "## [Cocina y Hogar](/)",
+        "blockClass": "titleSection"
+      }
+    },
+    "tab-layout#home-tabs-06-layout":{
+      "children": [
+        "tab-list#home-tabs-06-list",
+        "tab-content#home-tabs-06-content"
+      ],
+      "props": {
+        "blockClass": ["tabs","tabs-home"],
+        "defaultActiveTabId": "home-tabs-06-item-01"
+      }
+    },
+
+    "tab-list#home-tabs-06-list": {
+      "children": [
+        "tab-list.item#home-tabs-06-item-01",
+        "tab-list.item#home-tabs-06-item-02",
+        "tab-list.item#home-tabs-06-item-03",
+        "tab-list.item#home-tabs-06-item-04",
+        "tab-list.item#home-tabs-06-item-05"
+      ],
+      "props":{
+        "blockClass": "list-tabs-home"
+      },
+      "title": "Tab Menu List"
+    },
+    "tab-list.item#home-tabs-06-item-01": {
+      "props": {
+        "tabId": "home-tabs-06-item-01",
+        "label": "Decoración",
+        "defaultActiveTab": true
+      },
+      "title": "Item 01"
+    },
+    "tab-list.item#home-tabs-06-item-02": {
+      "props": {
+        "tabId": "home-tabs-06-item-02",
+        "label": "Jardin"
+      },
+      "title": "Item 02"
+    },
+    "tab-list.item#home-tabs-06-item-03": {
+      "props": {
+        "tabId": "home-tabs-06-item-03",
+        "label": "Organización"
+      },
+      "title": "Item 03"
+    },
+    "tab-list.item#home-tabs-06-item-04": {
+      "props": {
+        "tabId": "home-tabs-06-item-04",
+        "label": "Cobertores y Sabanas",
+        "blockClass": "item-hide-mobile"
+      },
+      "title": "Item 04"
+    },
+    "tab-list.item#home-tabs-06-item-05": {
+      "props": {
+        "tabId": "home-tabs-06-item-05",
+        "label": "Consumos del hogar",
+        "blockClass": "item-hide-mobile"
+      },
+      "title": "Item 05"
+    },
+    "tab-content#home-tabs-06-content": {
+      "children": [
+        "tab-content.item#home-tabs-06-item-01",
+        "tab-content.item#home-tabs-06-item-02",
+        "tab-content.item#home-tabs-06-item-03",
+        "tab-content.item#home-tabs-06-item-04",
+        "tab-content.item#home-tabs-06-item-05"
+      ],
+      "props":{
+        "blockClass": "content-tabs-home"
+      },
+      "title": "Lista Tab Content"
+    },
+    "tab-content.item#home-tabs-06-item-01": {
+      "children": [
+        "list-context.product-list#home-tabs-06-shelf-01"
+      ],
+      "props": {
+        "tabId": "home-tabs-06-item-01"
+      },
+      "title": "Content 01"
+    },
+    "tab-content.item#home-tabs-06-item-02": {
+      "children": [
+        "list-context.product-list#home-tabs-06-shelf-02"
+      ],
+      "props": {
+        "tabId": "home-tabs-06-item-02"
+      },
+      "title": "Content 02"
+    },
+    "tab-content.item#home-tabs-06-item-03": {
+      "children": [
+        "list-context.product-list#home-tabs-06-shelf-03"
+      ],
+      "props": {
+        "tabId": "home-tabs-06-item-03"
+      },
+      "title": "Content 03"
+    },
+    "tab-content.item#home-tabs-06-item-04": {
+      "children": [
+        "list-context.product-list#home-tabs-06-shelf-04"
+      ],
+      "props": {
+        "tabId": "home-tabs-06-item-04"
+      },
+      "title": "Content 04"
+    },
+    "tab-content.item#home-tabs-06-item-05": {
+      "children": [
+        "list-context.product-list#home-tabs-06-shelf-05"
+      ],
+      "props": {
+        "tabId": "home-tabs-06-item-05"
+      },
+      "title": "Content 05"
+    },
+
+    "list-context.product-list#home-tabs-06-shelf-01": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 01"
+    },
+    "list-context.product-list#home-tabs-06-shelf-02": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 02"
+    },
+    "list-context.product-list#home-tabs-06-shelf-03": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 03"
+    },
+    "list-context.product-list#home-tabs-06-shelf-04": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 04"
+    },
+    "list-context.product-list#home-tabs-06-shelf-05": {
+      "blocks": ["product-summary.shelf"],
+      "children": ["slider-layout#demo-products"],
+      "props": {
+        "orderBy": "OrderByReleaseDateDESC"
+      },
+      "title": "Collection 05"
+    }
+  }

@@ -1,0 +1,58 @@
+{
+    "store.custom#politica-de-privacidade": {
+      "blocks": [
+        //"flex-layout.row#banner-privacidade", 
+        "flex-layout.row#title-privacidade", 
+        "flex-layout.row#privacidade-content"
+      ]
+    },
+    "flex-layout.row#banner-privacidade": {
+      "children": ["image#banner-privacidade"],
+      "props": {
+        "marginTop": 6,
+        "fullWidth": true,
+        "blockClass": ["banner-institucionale"]
+      },
+      "title": "Line banner"
+    },
+    "image#banner-privacidade":{
+      "props":{
+        "src": "assets/banners/banner-institucional.jpg"
+      }
+    },
+    "flex-layout.row#title-privacidade": {
+      "children": ["rich-text#title-privacidade"],
+      "props": {
+        "marginTop": 6,
+        "fullWidth": true,
+        "blockClass": ["title","centralizer","centralizer-institucional"]
+      },
+      "title": "Line título"
+    },
+    "rich-text#title-privacidade": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "# Política de Privacidade",
+        "blockClass": "intitucional-title"
+      }
+    },
+    "flex-layout.row#privacidade-content": {
+      "children": ["rich-text#description-privacidade"],
+      "props": {
+        "fullWidth": false,
+        "blockClass": ["description","centralizer","centralizer-institucional"]
+      },
+      "title": "Line conteúdo"
+    },
+    "rich-text#description-privacidade": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "A e-Labcommerce garante a seus clientes total transparência e controle sobre a coleta, armazenagem e uso das informações pessoais contidas em seu banco de dados. \n\n __Segurança__ \n Rarantimos a segurança e privacidade de todos os dados de clientes que realizam compras em sua loja virtual. Nosso banco de dados está armazenado em servidores locais que possuem certificados de segurança digital e criptografia de todos os dados. \n\n Tem adotado os níveis legalmente requeridos quanto à segurança na proteção de dados, instalando todos os meios e medidas técnicas ao seu alcance para evitar a perda, mau uso, alteração, acesso não autorizado ou subtração indevida de qualquer dado armazenado. Garantimos uma navegação e uma transação de compra com 100% de segurança eletrônica e sempre monitorada por uma equipe de suporte técnico. \n\n A e-Labcommerce reserva-se o direito de modificar a presente política para adaptá-la a alterações legislativas ou jurisprudências, ou aquelas relativas às práticas comerciais. Em qualquer caso, a e-Labcommerce e comunicará diretamente para seus clientes em seu site ou via comunicado qualquer modificação realizada. \n\n __Coleta de informações__ \n Ao se cadastrar, os clientes determinam voluntariamente que desejam fornecer os seus dados pessoais requeridos na contratação, atualização ou cancelamento de determinados serviços oferecidos no site ou através dele, tais como: recebimento de newsletter, compras na loja virtual, contatos com os serviços de atendimento e outros. \n\n Os dados coletados pela e-Labcommerce serão objeto de tratamento automatizado, sendo incorporados aos correspondentes registros eletrônicos de dados pessoais, dos quais a e-Labcommerce é titular e responsável. Esse processo nos permite utilizar tais dados para envio de comunicados ou pesquisas de caráter comercial sem exibição externa das informações dos clientes. \n\n Essas informações são utilizadas com o propósito básico de identificar o público alvo de sua loja virtual, seu perfil e hábitos de compra, para gestão, administração, atendimento, ampliação e melhorias nos produtos e serviços oferecidos; também para a adequação dos serviços às preferências e gostos dos usuários, para a criação de novos produtos e serviços, para o envio de informações operacionais e comerciais relativas aos produtos e serviços, por meios tradicionais e/ou eletrônicos. \n\n __Compromisso da e-Labcommerce com tais informações__  \n Corrigir prontamente quaisquer alterações relativas aos dados do cliente. Para tanto, o cliente deverá informar a e-Labcommerce da mudança dessas informações. \n Em nenhuma hipótese divulgamos ou repassamos a terceiros sem prévia autorização formal do cliente, de qualquer dado de contato fornecido em nossa loja virtual. \n Possibilitamos ao cliente o cancelamento, a qualquer momento, do envio por e-mail de material informativo solicitado anteriormente. \n\n O site da e-Labcommerce pode, de acordo com a sua tecnologia, gravar arquivos de dados chamados 'cookies' no computador do usuário. Esses arquivos não ocupam espaço de memória do computador, porém ele nos possibilitam a personalizar cada página visualizada pelo cliente em nosso site, o que torna sua navegação mais interessante e ágil.",
+        "font": "t-heading-5",
+        "blockClass": "description"
+      }
+    }
+  }
+  

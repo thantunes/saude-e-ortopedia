@@ -1,0 +1,110 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+      "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#whatsapp"
+    ]
+  },
+  "footer-layout.mobile":
+  {"children": [
+    "flex-layout.row#footer-1-desktop",
+    "flex-layout.row#footer-2-desktop",
+    "flex-layout.row#whatsapp"
+  ]},
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#footer-1.1",
+      "flex-layout.col#footer-1.2",
+      "flex-layout.col#footer-1.3",
+      "flex-layout.col#footer-1.4"
+    ],
+    "props": {
+      "blockClass": ["row-container"],
+      "paddingTop": 5,
+      "marginBottom": 5
+    }
+  },
+  "flex-layout.col#footer-1.1": {
+    "children": ["vtex.menu@2.x:menu#institucional"],
+    "props": {"width": "25%"}
+  },
+  "flex-layout.col#footer-1.2": {
+    "children": ["vtex.menu@2.x:menu#atendimento"],
+    "props": {"width": "25%"}
+  },
+  "flex-layout.col#footer-1.3": {
+    "children": [
+      "vtex.menu@2.x:menu#atendimento2",
+      "vtex.menu@2.x:menu#social"
+    ],
+    "props": {"width": "25%"}
+  },
+  "flex-layout.col#footer-1.4": {
+    "children": ["flex-layout.row#security", "flex-layout.row#pay"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "width": "25%"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-2.1",
+      "flex-layout.col#footer-2.2"
+    ],
+    "props": { "blockClass": ["row-container","row-copys"] }
+  },
+  "flex-layout.col#footer-2.1": {
+    "children": ["rich-text#footer-credits"],
+    "props": {
+      "blockClass": "credits",
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#footer-2.2": {
+    "children": ["rich-text#footer-credits2"],
+    "props": {"width": "40%"}
+  },
+  "rich-text#footer-credits": {
+    "props": {
+      "text": "© 2022 PH Com. e Locação de Equip. Médicos Hospitalares Ltda. - CNPJ: 02.868.351/0001-44",
+      "blockClass": "footer-copy"
+    }
+  },
+  "rich-text#footer-credits2": {
+    "props": {
+      "textAlignment": "RIGHT",
+      "text": "Plataforma: **[vtex](https://vtex.com/)** *|* Implantação: **[EFCINO](https://www.efcinco.com.br/)** ",
+      "blockClass": "footer-copy2"
+    }
+  },
+
+  "flex-layout.row#whatsapp": {
+    "props": {
+      "blockClass": "whatsapp"
+    },
+    "children": ["image#whatsapp"]
+  },
+
+  "image#whatsapp": {
+    "props": {
+      "src": "assets/icons/whatsapp.svg",
+      "link": {
+        "newTab": "true",
+        "attributeNofollow": "true",
+        "url": "https://api.whatsapp.com/send?phone=552121474511"
+      },
+      "maxHeight": 50,
+      "alt": "WhatsApp (21) 2147-4511",
+      "title": "WhatsApp (21) 2147-4511"
+    }
+  }
+
+}

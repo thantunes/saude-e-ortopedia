@@ -1,0 +1,57 @@
+{
+  "store.custom#formas-de-pagamentos": {
+    "blocks": [
+      //"flex-layout.row#banner-formas",
+      "flex-layout.row#title-formas",
+      "flex-layout.row#formas-content"
+    ]
+  },
+  "flex-layout.row#banner-formas": {
+    "children": ["image#banner-formas"],
+    "props": {
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": ["banner-institucionale"]
+    },
+    "title": "Line banner"
+  },
+  "image#banner-formas":{
+    "props":{
+      "src": "assets/banners/banner-institucional.jpg"
+    }
+  },
+  "flex-layout.row#title-formas": {
+    "children": ["rich-text#title-formas"],
+    "props": {
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": ["title","centralizer","centralizer-institucional"]
+    },
+    "title": "Line título"
+  },
+  "rich-text#title-formas": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# Formas de Pagamento",
+      "blockClass": "intitucional-title"
+    }
+  },
+  "flex-layout.row#formas-content": {
+    "children": ["rich-text#description-formas"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": ["description","centralizer","centralizer-institucional"]
+    },
+    "title": "Line conteúdo"
+  },
+  "rich-text#description-formas": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": " Oferecemos aos nossos clientes várias formas de pagamento em nossa loja virtual, confira. \n\n __Pagamento com cartão de crédito__ \n\n Compra mínima deverá ser de R$ 800,00. \n Importante: Mesmo no caso de pagamento parcelado de pequeno valor, lembre-se que o valor total da compra não pode exceder o limite de seu cartão. Esta é a regra de aprovação adotada pelas administradoras de cartão de crédito. \n\n __Pagamento com boleto bancário__ \n\n Após emitir o boleto pelo site, o cliente tem o prazo de até 3 dias úteis para efetuar o pagamento, após essa data o pedido e o boleto serão cancelados automaticamente. \n Caso o boleto tenha vencido será necessário entrar em contato com seu representante. \n O boleto é validado no primeiro dia útil após o pagamento. \n\n __Pagamento por depósito bancário ou transferência eletrônica__ \n\n Disponível somente para pagamento do valor à vista. \n O cliente tem o prazo de até 3 úteis dias para realizar o pagamento e enviar a confirmação, após essa data a sua compra será cancelada automaticamente. \n Após o depósito ou transferência, pedimos que nos envie uma cópia digitalizada do comprovante juntamente com o seu nome e o número de pedido para o e-mail: contato@saudeeortopedia.com.br \n Trabalhamos com o Banco Itaú e Banco Bradesco para essa modalidade de pagamento. \n A validação do seu pagamento só será efetuada após o recebimento do comprovante.",
+      "font": "t-heading-5",
+      "blockClass": "description"
+    }
+  }
+}

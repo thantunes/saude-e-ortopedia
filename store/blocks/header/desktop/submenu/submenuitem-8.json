@@ -1,0 +1,38 @@
+{
+  "submenu#cuidado-pes-e-corpo": {
+    "children": [
+      "flex-layout.row#row-sub-cuidado-pes-e-corpo"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","cuidado-pes-e-corpo"]
+    }
+  },
+  "flex-layout.row#row-sub-cuidado-pes-e-corpo": {
+    "children":[
+      "flex-layout.col#col-01-sub-cuidado-pes-e-corpo"
+    ],
+    "props":{
+      "blockClass":["row-sub-cuidado-pes-e-corpo","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-cuidado-pes-e-corpo":{
+    "children":[
+      "menu#menu-cuidado-pes-e-corpo"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-cuidado-pes-e-corpo": {
+    "props": {
+      "categoryId": "21",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

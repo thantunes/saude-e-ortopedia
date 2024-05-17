@@ -1,0 +1,37 @@
+@import '../variables.scss';
+
+.menuContainerNav--faq-home{
+  max-width: 772px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  .menuContainer--faq-home{
+    border-radius: 10px;
+    box-shadow: 0 7px 6px rgba(0,0,0,.08);
+    padding: 10px;
+    @media(min-width: 1024px){
+      padding: 20px;
+    }
+    .menuItem{
+      border-bottom: 1px solid $tertiaryColor;
+      .styledLinkContainer{
+        margin: 0;
+        padding: 0;
+        .styledLinkContent{
+          font-weight: bold;
+          line-height: 33px;
+          padding: 1.5rem 5px 1.5rem 15px;
+          font-size: 16px;
+          letter-spacing: .5px;
+          &:hover{
+            background-color: #eee;
+            transition: all .4s;
+          }
+        }
+      }
+      &:last-child{
+        border-bottom: 0;
+      }
+    }
+  }
+}

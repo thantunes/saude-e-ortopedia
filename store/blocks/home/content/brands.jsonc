@@ -1,0 +1,109 @@
+{
+  "flex-layout.row#highlight-departments":{
+    "children":[
+      "flex-layout.col#highlight-departments"
+    ],
+    "props":{
+      "blockClass":["centralizer","brands","line"]
+    }
+  },
+  "flex-layout.col#highlight-departments":{
+    "children":[
+      "rich-text#title-brands",
+      "list-context.image-list#brands"
+    ]
+  },
+  "rich-text#title-brands":{
+    "props":{
+      "text": "## Navegue por marcas",
+      "blockClass": "titleSection"
+    }
+  },
+  "list-context.image-list#brands": {
+    "children":["slider-layout#departments"],
+    "props":{
+      "preload":true,
+      "height":110,
+      "blockClass":"brands",
+      "images":[
+        {
+          "image": "assets/departments/marca1.png",
+          "description": "Cinta Moderna",
+          "link":{
+            "url": "/equipamentos/agitadores",
+            "title": "Cinta Moderna"
+          }
+        },
+        {
+          "image": "assets/departments/marca2.png",
+          "description": "Analisadores Bioquímicos",
+          "link":{
+            "url": "/equipamentos/analisadores-bioquimicos",
+            "title": "Freedom"
+          }
+        },
+        {
+          "image": "assets/departments/marca3.png",
+          "description": "Juaguaribe",
+          "link":{
+            "url": "/equipamentos/banhos-maria",
+            "title": "Banhos Maria"
+          }
+        },
+        {
+          "image": "assets/departments/marca4.png",
+          "description": "Omron",
+          "link":{
+            "url": "/equipamentos/centrifugas",
+            "title": "Centrifugas"
+          }
+        },
+        {
+          "image": "assets/departments/marca5.png",
+          "description": "Estereoscópios",
+          "link":{
+            "url": "/equipamentos/estereoscopios",
+            "title": "Estereoscópios"
+          }
+        },
+        {
+          "image": "assets/departments/marca1.png",
+          "description": "Centrifugas",
+          "link":{
+            "url": "/equipamentos/centrifugas",
+            "title": "Centrifugas"
+          }
+        },
+        {
+          "image": "assets/departments/marca2.png",
+          "description": "Centrifugas",
+          "link":{
+            "url": "/equipamentos/centrifugas",
+            "title": "Centrifugas"
+          }
+        },
+        {
+          "image": "assets/departments/marca3.png",
+          "description": "Centrifugas",
+          "link":{
+            "url": "/equipamentos/centrifugas",
+            "title": "Centrifugas"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#departments":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":5,
+        "tablet":4,
+        "phone":3
+      },
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass":"brands",
+      "infinite": true
+    }
+  }
+}

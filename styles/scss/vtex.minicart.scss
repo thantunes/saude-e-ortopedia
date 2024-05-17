@@ -1,0 +1,65 @@
+@import './variables';
+
+.minicartContainer{
+  .openIconContainer{
+    padding: 0;
+    margin-left: 20px;
+  }
+  :global(.vtex-button){
+    background-color: transparent;
+    height: 46px;
+    &:hover{
+      background: rgba(255,255,255,.1);
+    }
+    :global(.vtex-button__label){
+      padding-left: 8px;
+      padding-right: 10px;
+      display: flex;
+      .minicartIconContainer{
+        background-image: url("assets/ico-cart.png"); 
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 32px;
+        height: 30px;
+        .cartIcon{
+          display: none;
+        }
+        .minicartQuantityBadge{
+          height: 15px;
+          width: 15px;
+          @media(min-width: 1025px){
+            top: -5px;
+            right: -10px;
+          }
+          background: #8A878D;
+          color: #fff;
+          font-weight: 700;
+        }
+        @media(max-width: 1024px){
+          width: 27px;
+          height: 25px;
+          .minicartQuantityBadge{
+            width: 14px!important;
+            height: 14px!important;
+            font-size: 10px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+.overlay{
+  background-color: black;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+  font-size: 0;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::before{
+  font-size: 14px;
+  content: "Taxas e frete calculados no Checkout";
+}

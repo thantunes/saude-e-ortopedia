@@ -1,0 +1,38 @@
+{
+  "submenu#conforto-do-paciente": {
+    "children": [
+      "flex-layout.row#row-sub-conforto-do-paciente"
+    ],
+    "props": {
+        "width": "100%",
+        "blockClass": ["main-submenu","conforto-do-paciente"]
+    }
+  },
+  "flex-layout.row#row-sub-conforto-do-paciente": {
+    "children":[
+      "flex-layout.col#col-01-sub-conforto-do-paciente"
+    ],
+    "props":{
+      "blockClass":["row-sub-conforto-do-paciente","row-sublevel"],
+      "preventVerticalStretch": true,
+      "fullWidth":true
+    }
+  },
+  "flex-layout.col#col-01-sub-conforto-do-paciente":{
+    "children":[
+      "menu#menu-conforto-do-paciente"
+    ],
+    "props":{
+      "blockClass":"col-sub",
+      "preventVerticalStretch": true,
+      "width":"100%"
+    }
+  },
+  "menu#menu-conforto-do-paciente": {
+    "props": {
+      "categoryId": "8",
+      "orientation": "vertical",
+      "blockClass": ["menu-categorias"]
+    }
+  }
+}

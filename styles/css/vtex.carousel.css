@@ -1,0 +1,24 @@
+.containerImg {
+  background-color: #f0f0f0;
+}
+
+.containerImg .img {
+  max-width: 1520px;
+}
+
+:global(.vtex-search-result-3-x-filter__container--title) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-productBrand--quickview) {
+  font-size: 24px !important;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorItem) {
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--sub-head-pdp-infos) {
+  margin: 0 !important;
+}

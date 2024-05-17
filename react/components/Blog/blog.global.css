@@ -1,0 +1,85 @@
+.vtex-wordpress-integration-2-x-paginationComponent {
+	display: none;
+}
+
+.vtex-wordpress-integration-2-x-filtersContainer {
+	display: none;
+}
+
+.vtex-wordpress-integration-2-x-teaserCategoryLink {
+	color: #095eb5;
+    text-decoration: none;
+}
+
+.vtex-wordpress-integration-2-x-teaserTitleLink {
+	color: #095eb5;
+    text-decoration: none;
+}
+
+.vtex-wordpress-integration-2-x-listFlexItem  {
+	width: 25%;
+	padding: 0 0.5%;
+}
+
+.vtex-wordpress-integration-2-x-listFlexItem .vtex-card {
+	box-shadow: none !important;
+}
+
+.vtex-wordpress-integration-2-x-teaserTitle {
+	font-size: 18px;
+    padding: 10px 0;
+}
+
+.vtex-wordpress-integration-2-x-teaserBody  {
+	padding: 10px 0;
+}
+
+.vtex-wordpress-integration-2-x-teaserBody  p {
+	font-size: 14px;
+}
+
+.vtex-wordpress-integration-2-x-teaserHeader  {
+	padding: 1.5rem 0 1rem;
+}
+
+.vtex-wordpress-integration-2-x-breadcrumbContainer {
+	display: none;
+}
+
+.vtex-wordpress-integration-2-x-postContainer {
+	padding: 0 20%;
+}
+
+.vtex-wordpress-integration-2-x-postTitle {
+	font-size: 25px;
+}
+
+.vtex-wordpress-integration-2-x-postMeta {
+	margin-bottom: 20px;
+}
+
+.vtex-wordpress-integration-2-x-listFlex .vtex-wordpress-integration-2-x-listFlexItem:nth-child(n+5) {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+@media (max-width: 1024px) {
+	.vtex-wordpress-integration-2-x-listFlexItem {
+		width: 50%;
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+
+	.vtex-wordpress-integration-2-x-postContainer {
+		padding: 0 5%;
+	}
+}
+
+.render-route-store-home .vtex-wordpress-integration-2-x-listFlex {
+	max-width: 1272px;
+}
+
+.render-route-store-home .vtex-wordpress-integration-2-x-listContainer {
+	justify-content: center;
+    display: flex;
+}

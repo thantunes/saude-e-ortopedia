@@ -1,0 +1,57 @@
+{
+  "store.custom#politica-de-entrega": {
+    "blocks": [
+      //"flex-layout.row#banner-entrega", 
+      "flex-layout.row#title-entrega", 
+      "flex-layout.row#entrega-content"
+    ]
+  },
+  "flex-layout.row#banner-entrega": {
+    "children": ["image#banner-entrega"],
+    "props": {
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": ["banner-institucionale"]
+    },
+    "title": "Line banner"
+  },
+  "image#banner-entrega":{
+    "props":{
+      "src": "assets/banners/banner-institucional.jpg"
+    }
+  },
+  "flex-layout.row#title-entrega": {
+    "children": ["rich-text#title-entrega"],
+    "props": {
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": ["title","centralizer","centralizer-institucional"]
+    },
+    "title": "Line título"
+  },
+  "rich-text#title-entrega": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# Política de Entrega",
+      "blockClass": "intitucional-title"
+    }
+  },
+  "flex-layout.row#entrega-content": {
+    "children": ["rich-text#description-entrega"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": ["description","centralizer","centralizer-institucional"]
+    },
+    "title": "Line conteúdo"
+  },
+  "rich-text#description-entrega": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "O fluxo logístico da e-Labcommerce abrange desde o recebimento do pedido em sua loja até a entrega em mãos ao seu cliente, sempre acompanhado de perto por nossa equipe técnica para garantir que todos os pedidos mantenham a sua qualidade e integridade. \n\n Alinhamos toda a nossa comunicação com as mais diversas transportadoras do Brasil, e para agilizar todo esse processo foram determinadas algumas condições conforme abaixo: \n\n\n Todos os pedidos efetuados na loja da e-Labcommerce são entregues de segunda-feira a sexta-feira, das 8h às 18h em qualquer região do Brasil. \n - Excepcionalmente algumas entregas podem ocorrer aos sábados, domingos e feriados. \n - O prazo de entrega de um pedido é contado a partir da confirmação do pagamento em dias úteis, ou seja, não inclui sábados, domingos e feriados. \n - A empresa responsável pela entrega dos pedidos não realiza a montagem ou instalados dos equipamentos. Caso tenha dúvidas, pedimos que entre em contato com nosso departamento técnico que estará lhe auxiliando em todos os processos. \n - Pedimos que o cliente certifique-se que o local da entrega do seu pedido é adequado para o correto transporte ou armazenamento. \n - A empresa responsável pela entrega, estará realizando até três tentativas de entrega no local informado. Após essas tentativas o pedido retorna para o centro de distribuição da transportadora. Sendo necessário a confirmação do endereço e horário de entrega para novas tentativas. \n - O recebimento do pedido deverá ser feito pelo comprador ou por uma pessoa autorizada e maior de 18 anos, portando seu documento de identificação para assinatura e conferência da nota de entrega. \n - Orientamos o cliente a sempre conferir o endereço de entrega, pois após o despacho do pedido, não é possível fazer alterações. \n - Em acordo com as transportadoras, não solicitamos adiantamento ou prioridade nas entregas. Todas seguem o fluxo padrão de rota. \n - Para entregas agendadas verifique com nosso atendimento ao cliente essa disponibilidade. \n - O prazo de entrega de um pedido é calculado com base na disponibilidade de estoque, região atendida, processo de emissão de nova e teste de qualidade do produto. \n - Em cada fase da entrega do pedido, nosso cliente é notificado com e-mails de alerta. Por isso, é importante manter seu e-mail atualizado em nosso cadastro. \n\n\n __IMPORTANTE__: Por motivos de segurança, em nenhuma hipótese nossos operadores alteram o endereço de entrega ou os dados cadastrais dos clientes. \n\n Caso tenha fornecido o endereço incompleto ou errado, entre em contato com o setor de atendimento ao cliente e informe os dados que faltaram. Fatores naturais e adversos: chuvas fortes, acidentes ou greves na região onde o produto deveria ser entregue impossibilitam a chegada do transportador. \n\n __Do direito a recusa da entrega__  \n\n Os produtos são enviados ao cliente exatamente como nos foram entregues pelo fabricante. Se ocorrer qualquer das hipóteses abaixo, recuse o recebimento da mercadoria e escreva o motivo da recusa no verso do DANFE: \n\n\n - embalagem aberta ou avariada; \n - produto avariado; \n - produto em desacordo com o pedido; \n - falta de acessórios. \n\n\n Se, ainda assim, você aceitar o produto, por favor, entre em contato com o setor de atendimento ao cliente em até 24 horas. \n\n Em caso de promoções que apresentarem como “Frete Grátis”, o modo de envio será determinado por nossa equipe de logística. \n\n Para outras dúvidas em relação a entrega de pedidos, estaremos a disposição através do telefone (16) 4042-4000 ou pelo e-mail contato@globaltradebr.com.br",
+      "font": "t-heading-5",
+      "blockClass": "description"
+    }
+  }
+}

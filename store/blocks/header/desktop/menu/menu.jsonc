@@ -1,0 +1,232 @@
+{
+  "flex-layout.row#mega-menu": {
+    "props": {
+      "blockClass": "mega-menu",
+      "colSizing": "auto",
+      "fullWidth": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false,
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false
+    },
+    "children": [
+      "flex-layout.col#extra-menu-desktop"
+    ]
+  },
+  "flex-layout.col#extra-menu-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#extra-menu"]
+  },
+  "vtex.menu@2.x:menu#extra-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass":"main-menu"
+    },
+    "children": [
+      "menu-item#mobilidade",
+      "menu-item#conforto-do-paciente",
+      "menu-item#almofadas-e-colchoes",
+      "menu-item#travesseiros-e-capas",
+      "menu-item#produtos-ortopedicos",
+      "menu-item#meias-de-compressao",
+      "menu-item#cuidado-pes-e-corpo",
+      "menu-item#esporte-e-fisioterapia",
+      "menu-item#aparelhos"
+    ]
+  },
+  "menu-item#mobilidade": {
+    "props": {
+      "id": "mobilidade",
+
+      "itemProps": {
+        "text": "Mobilidade e Acessórios",
+        "tagTitle": "Mobilidade e Acessórios",
+        "href": "/mobilidade-e-acessorios"
+      },
+      "iconProps": {
+        "id": "mobilidade-e-acessorios",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#mobilidade"
+    ]
+  },
+  "menu-item#conforto-do-paciente": {
+    "props": {
+      "id": "conforto-do-paciente",
+
+      "itemProps": {
+        "text": "Conforto do Paciente",
+        "tagTitle": "Conforto do Paciente",
+        "href": "/conforto-paciente"
+      },
+      "iconProps": {
+        "id": "conforto-do-paciente",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#conforto-do-paciente"
+    ]
+  },
+  //Almofadas e Colchões
+  "menu-item#almofadas-e-colchoes": {
+    "props": {
+      "id": "almofadas-e-colchoes",
+
+      "itemProps": {
+        "text": "Almofadas e Colchões",
+        "tagTitle": "Almofadas e Colchões",
+        "href": "/almofadas-e-colchoes"
+      },
+      "iconProps": {
+        "id": "almofadas-e-colchoes",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#almofadas-e-colchoes"
+    ]
+  },
+  // Travesseiros e Capas
+  "menu-item#travesseiros-e-capas": {
+    "props": {
+      "id": "travesseiros-e-capas",
+
+      "itemProps": {
+        "text": "Travesseiros e Capas",
+        "tagTitle": "Travesseiros e Capas",
+        "href": "/travesseiro-e-capas"
+      },
+      "iconProps": {
+        "id": "travesseiros-e-capas",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    }
+  },
+  // Produtos Ortopédicos
+  "menu-item#produtos-ortopedicos": {
+    "props": {
+      "id": "produtos-ortopedicos",
+
+      "itemProps": {
+        "text": "Produtos Ortopédicos",
+        "tagTitle": "Produtos Ortopédicos",
+        "href": "/produtos-ortopedicos"
+      },
+      "iconProps": {
+        "id": "produtos-ortopedicos",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#produtos-ortopedicos"
+    ]
+  },
+  //Meias de Compressão
+  "menu-item#meias-de-compressao": {
+    "props": {
+      "id": "meias-de-compressao",
+
+      "itemProps": {
+        "text": "Meias de Compressão",
+        "tagTitle": "Meias de Compressão",
+        "href": "/meias-de-compressa"
+      },
+      "iconProps": {
+        "id": "meias-de-compressao",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#meias-de-compressao"
+    ]
+  },
+  //Cuidado pés e corpo
+  "menu-item#cuidado-pes-e-corpo": {
+    "props": {
+      "id": "cuidado-pes-e-corpo",
+
+      "itemProps": {
+        "text": "Cuidado pés e corpo",
+        "tagTitle": "Cuidado pés e corpo",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "cuidado-pes-e-corpo",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#cuidado-pes-e-corpo"
+    ]
+  },
+  //Esporte e Fisioterapia
+  "menu-item#esporte-e-fisioterapia": {
+    "props": {
+      "id": "esporte-e-fisioterapia",
+
+      "itemProps": {
+        "text": "Esporte e Fisioterapia",
+        "tagTitle": "Esporte e Fisioterapia",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "esporte-e-fisioterapia",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#esporte-e-fisioterapia"
+    ]
+  },
+  //Aparelhos
+  "menu-item#aparelhos": {
+    "props": {
+      "id": "aparelhos",
+
+      "itemProps": {
+        "text": "Aparelhos",
+        "tagTitle": "Aparelhos",
+        "href": "/aparelhos"
+      },
+      "iconProps": {
+        "id": "aparelhos",
+        "size": 34,
+        "viewBox": "0 0 20.97 34.706",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "submenu#aparelhos"
+    ]
+  }
+}

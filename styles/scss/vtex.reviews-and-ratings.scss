@@ -1,0 +1,27 @@
+@import './variables.scss';
+
+.container{
+  max-width: initial;
+  padding: 0;
+}
+
+.loginLink{
+  color: $primaryColor;
+  padding-left: 0;
+  font-weight: 700;
+}
+
+.summaryContainer{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  .stars{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  .summaryTotalReviews{
+    font-size: 13px!important;
+    position: relative;
+  }
+}

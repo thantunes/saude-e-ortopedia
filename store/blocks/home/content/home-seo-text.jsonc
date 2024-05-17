@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#home-seo-text":{
+    "children":["rich-text#home-seo-text"],
+    "props":{
+      "blockClass": ["centralizer","row-home-seo-text","line"]
+    }
+  },
+  "rich-text#home-seo-text":{
+    "props":{
+      "text": "**Saúde e Ortopedia - Apresenta sua linha de produtos médicos e ortopédicos.** \n Aqui, você encontra uma grande variedade de produtos médicos e ortopédicos. Cadeiras de rodas manuais e elétricas, cadeiras higiênicas, meias de compressão, bengalas, muletas, produtos para incontinência, aparelhos de pressão, aparelhos de glicemia e muito mais! Oferecemos também um setor de locação como: cadeira de rodas, cadeiras higiênicas, andador, muletas e cama hospitalar. \n\n [SAIBA MAIS...](/quem-somos)",
+      "blockClass": "home-seo-text"
+    }
+  }
+}

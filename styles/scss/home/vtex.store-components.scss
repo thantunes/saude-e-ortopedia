@@ -1,0 +1,155 @@
+@import '../variables.scss';
+
+.infoCardContainer--info-card-home{
+  background-color: transparent;
+  @media(max-width: 1024px){
+    :global(.vtex-button){
+      height: 35px!important;
+      min-height: initial;
+      :global(.vtex-button__label){
+        font-size: 12px;
+      }
+    }
+  }
+  .infoCardTextContainer--info-card-home{
+    padding-left: 0;
+  }
+  .infoCardImageContainer--info-card-home{
+    display: flex;
+    justify-content: center;
+  }
+  .infoCardHeadline{
+    color: white;
+    font-size: 48px;
+  }
+  .infoCardSubhead{
+    color: rgba(255,255,255,.7);
+    font-size: 24px;
+    max-width: 310px;
+  }
+  .infoCardCallActionContainer{
+    :global(.vtex-button){
+      border-color: white;
+      border-width: 1px;
+      background-color: transparent;
+      transition: $defaultTransition;
+      &:hover{
+        background-color: rgba(255,255,255,1);
+        :global(.vtex-button__label){
+          color: black;
+        }
+      }
+      :global(.vtex-button__label){
+        color: white;
+        text-transform: initial;
+      }
+    }
+  }
+}
+
+.infoCardContainer--info-card-home{
+  @media screen and (max-width: 1024px){
+    display: grid;
+    grid-template-columns: auto 45%;
+    .container--info-card-home{
+      height: auto;
+      :global(.vtex-button){
+        margin: 0;
+      }
+    }
+  }
+}
+
+.infoCardTextContainer--info-card-home-content{
+  @media screen and (min-width: 40em){
+    padding-left: 2vw;
+  }
+  .heading--info-card-home-content{
+    margin: 0!important;
+    font-size: 24px;
+    font-weight: 800;
+    @media(max-width: 640px){
+      font-size: 16px;
+      text-align: left;
+      margin-left: 3vw!important;
+    }
+  }
+  .infoCardCallActionContainer--info-card-home-content,
+  .infoCardCallActionText--info-card-home-content{
+    text-decoration: none;
+    color: $primaryColor;
+    margin: 10px 0px 0px 0px;
+    &:hover{
+      text-decoration: underline;
+    }
+    @media(max-width: 1024px){
+      font-size: 12px;
+      margin: 0.5vh 0 0 1.8vw;
+    }
+  }
+}
+
+.infoCardCallActionContainer--info-card-home{
+  @media(max-width: 1024px){
+    margin-top: 0;
+  }
+}
+
+.paragraph--info-card-home,
+.heading--info-card-home{
+  margin: 15px 0px;
+  color: white;
+}
+
+.heading--info-card-home,
+.infoCardHeadline--info-card-home{
+  @media(max-width: 1024px){
+    font-size: 19px!important;
+    margin-bottom: 0;
+  }
+}
+
+.paragraph--info-card-home,
+.infoCardSubhead--info-card-home{
+  @media(max-width: 1024px){
+    font-size: 11px!important;
+  }
+}
+
+.infoCardSubhead--info-card-home{
+  @media(max-width: 1024px){
+    margin-bottom: 20px!important;
+  }
+}
+
+.imageElement--img-deal{
+  @media(max-width: 1024px){
+    max-height: 60px!important;
+    max-width: 75px!important;
+    margin: 0!important;
+  }
+  @media(max-width: 768px){
+    max-height: 35px!important;
+    max-width: 50px!important;
+    margin: 0!important;
+  }
+  @media(max-width: 650px){
+    margin: 0 auto 5px!important;
+  }
+}
+
+.infoCardTextContainer--info-card-home-content{
+  @media(max-width: 640px){
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+  .paragraph--info-card-home-content{
+    font-size: 16px;
+    color: $textSecondaryColor;
+    margin: 11px 0;
+    @media(max-width: 640px){
+      margin-left: 3vw;
+      font-size: 14px;
+    }
+  }
+}
