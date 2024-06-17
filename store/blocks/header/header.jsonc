@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#telemarketing",
       "sticky-layout#desktop-sticky-header",
-      "flex-layout.row#mega-menu"
+      "flex-layout.row#mega-menu",
+      "rich-text#h1-tag-hide"
     ]
   },
   "flex-layout.row#telemarketing": {
@@ -18,7 +19,12 @@
       "fullWidth": true
     }
   },
-
+  "rich-text#h1-tag-hide": {
+    "props": {
+      "blockClass": ["h1-tag-hide"],
+      "text": "# Saúde e Ortopedia"
+    }
+  },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
@@ -181,7 +187,8 @@
   "header-layout.mobile": {
     "children": [
       //"flex-layout.row#top-notification",
-      "sticky-layout#1-mobile"
+      "sticky-layout#1-mobile",
+      "rich-text#h1-tag-hide"
     ]
   },
   "sticky-layout#1-mobile": {
@@ -261,7 +268,7 @@
     "props": {
       "title": "Logo - Saúde e Ortopedia",
       "href": "/",
-      "url": "assets/logo-saude-e-ortopedia2.png", 
+      "url": "assets/logo-saude-e-ortopedia2.png",
       "width": "210"
     },
     "title": "Logo - Saúde e Ortopedia"

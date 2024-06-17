@@ -1,8 +1,8 @@
 {
     "store.custom#nossas-lojas": {
       "blocks": [
-        //"flex-layout.row#banner-nossas-lojas", 
-        "flex-layout.row#title-nossas-lojas", 
+        //"flex-layout.row#banner-nossas-lojas",
+        "flex-layout.row#title-nossas-lojas",
         "flex-layout.row#nossas-lojas-content"
       ]
     },
@@ -33,7 +33,7 @@
       "props": {
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "text": "# Nossas Lojas",
+        "text": "## Nossas Lojas",
         "blockClass": "intitucional-title"
       }
     },
@@ -55,4 +55,3 @@
       }
     }
   }
-  

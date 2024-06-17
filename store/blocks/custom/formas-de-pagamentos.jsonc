@@ -33,7 +33,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "# Formas de Pagamento",
+      "text": "## Formas de Pagamento",
       "blockClass": "intitucional-title"
     }
   },

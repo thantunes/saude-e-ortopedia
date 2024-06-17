@@ -1,8 +1,8 @@
 {
-  "store.custom#trocas-devolucoes": { 
+  "store.custom#trocas-devolucoes": {
       "blocks": [
-        //"flex-layout.row#banner-perguntas", 
-        "flex-layout.row#title-perguntas", 
+        //"flex-layout.row#banner-perguntas",
+        "flex-layout.row#title-perguntas",
         "flex-layout.row#perguntas-content"
       ]
     },
@@ -33,7 +33,7 @@
       "props": {
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "text": "# Perguntas Frequentes",
+        "text": "## Perguntas Frequentes",
         "blockClass": "intitucional-title"
       }
     },
@@ -55,4 +55,3 @@
       }
     }
   }
-  

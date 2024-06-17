@@ -1,8 +1,8 @@
 {
     "store.custom#quem-somos": {
       "blocks": [
-        //"flex-layout.row#banner-quem-somos", 
-        "flex-layout.row#title-quem-somos", 
+        //"flex-layout.row#banner-quem-somos",
+        "flex-layout.row#title-quem-somos",
         "flex-layout.row#quem-somos-content"
       ]
     },
@@ -33,7 +33,7 @@
       "props": {
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "text": "# Quem Somos",
+        "text": "## Quem Somos",
         "blockClass": "intitucional-title"
       }
     },
@@ -55,4 +55,3 @@
       }
     }
   }
-  

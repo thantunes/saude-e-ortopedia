@@ -1,8 +1,8 @@
 {
     "store.custom#politica-de-privacidade": {
       "blocks": [
-        //"flex-layout.row#banner-privacidade", 
-        "flex-layout.row#title-privacidade", 
+        //"flex-layout.row#banner-privacidade",
+        "flex-layout.row#title-privacidade",
         "flex-layout.row#privacidade-content"
       ]
     },
@@ -33,7 +33,7 @@
       "props": {
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "text": "# Política de Privacidade",
+        "text": "## Política de Privacidade",
         "blockClass": "intitucional-title"
       }
     },
@@ -55,4 +55,3 @@
       }
     }
   }
-  

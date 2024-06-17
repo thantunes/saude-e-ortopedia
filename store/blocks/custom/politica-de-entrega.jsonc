@@ -1,8 +1,8 @@
 {
   "store.custom#politica-de-entrega": {
     "blocks": [
-      //"flex-layout.row#banner-entrega", 
-      "flex-layout.row#title-entrega", 
+      //"flex-layout.row#banner-entrega",
+      "flex-layout.row#title-entrega",
       "flex-layout.row#entrega-content"
     ]
   },
@@ -33,7 +33,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "# Política de Entrega",
+      "text": "## Política de Entrega",
       "blockClass": "intitucional-title"
     }
   },

@@ -61,10 +61,7 @@
     align-items: center;
     display: flex;
     transition: all .3s;
-
-    &:hover{
-      border-color: $secondaryColor;
-    }
+    border: none;
   }
 }
 
