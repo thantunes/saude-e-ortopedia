@@ -51,7 +51,7 @@
 
   "product-summary-name":{
     "props": {
-      "tag": "strong",
+      "tag": "h3",
       "showFieldsProps":{
         "showBrandName": false
       }

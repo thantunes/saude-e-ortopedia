@@ -41,14 +41,14 @@
       }
       :global(.vtex-flex-layout-0-x-flexRowContent--row-summary-actions){
         :global(.vtex-button){
-          background-color: $tertiaryColor;
-          border: 2px solid $tertiaryColor;
+          background-color: $tertiaryColor !important;
+          border: 2px solid $tertiaryColor !important;
           border-radius: 6px;
           margin: 16px auto 0;
 
           &:hover{
-            background-color: $buyButtonColor;
-            border-color: $buyButtonColor;
+            background-color: $buyButtonColor !important;
+            border-color: $buyButtonColor !important;
             :global(.vtex-button__label){
               color: white;
             }

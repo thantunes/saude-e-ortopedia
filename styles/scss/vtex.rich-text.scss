@@ -163,10 +163,16 @@
   }
 }
 
+.container--blog-title {
+  max-width: 1272px !important;
+  margin: 0 auto;
+}
+
 .container--titleSection,
 :global(.vtex-store-components-3-x-productDescriptionTitle),
 :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
-:global(.vtex-shelf-1-x-title--related-products) {
+:global(.vtex-shelf-1-x-title--related-products),
+.container--blog-title {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
   justify-content: flex-start;
@@ -481,4 +487,12 @@
 
 .container--h1-tag-hide {
   display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bnr-bf) {
+  .heading {
+    text-align: center;
+    color: #095EB5;
+    font-size: 16px;
+  }
 }

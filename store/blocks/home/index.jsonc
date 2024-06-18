@@ -4,13 +4,13 @@
       "blog",
       "flex-layout.row#main-banners",
       //"__fold__.experimentalLazyAssets",
-      "flex-layout.row#shelf1-title", 
+      "flex-layout.row#shelf1-title",
       "flex-layout.row#shelf1",
       "flex-layout.row#home-highlight-collections",
-      "flex-layout.row#shelf2-title", 
+      "flex-layout.row#shelf2-title",
       "flex-layout.row#shelf2",
       "flex-layout.row#bnr-bf",
-      "flex-layout.row#shelf3-title", 
+      "flex-layout.row#shelf3-title",
       "flex-layout.row#shelf3",
       "flex-layout.row#highlight-departments",
       //"flex-layout.row#grid-content-banners",
@@ -43,7 +43,7 @@
     "props": {
       "id": "blog",
       "text": "Últimas do blog",
-      "blockClass": "blog-title"
+      "blockClass": ["blog-title", "titleSection"]
     }
   },
   "slider-layout#demo-products": {

@@ -12,7 +12,7 @@
         margin-bottom: 15px;
         display: block;
     }
-    h2 {
+    h2, h3 {
         color: $color-primary;
         font-size: 16px;
     }
@@ -38,7 +38,7 @@
         top: 30px;
         left: 0;
         .vtex-product-highlights-2-x-productHighlightText {
-            background-color: #036DA6; 
+            background-color: #036DA6;
         }
     }
 }
