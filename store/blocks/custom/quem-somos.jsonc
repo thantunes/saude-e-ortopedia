@@ -3,8 +3,7 @@
       "blocks": [
         //"flex-layout.row#banner-quem-somos",
         "flex-layout.row#title-quem-somos",
-        "flex-layout.row#quem-somos-content",
-      "flex-layout.row#h1-seo-tag"
+        "flex-layout.row#quem-somos-content"
       ]
     },
     "flex-layout.row#banner-quem-somos": {

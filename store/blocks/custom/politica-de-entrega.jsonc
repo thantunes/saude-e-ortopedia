@@ -3,30 +3,39 @@
     "blocks": [
       //"flex-layout.row#banner-entrega",
       "flex-layout.row#title-entrega",
-      "flex-layout.row#entrega-content",
-      "flex-layout.row#h1-seo-tag"
+      "flex-layout.row#entrega-content"
     ]
   },
   "flex-layout.row#banner-entrega": {
-    "children": ["image#banner-entrega"],
+    "children": [
+      "image#banner-entrega"
+    ],
     "props": {
       "marginTop": 6,
       "fullWidth": true,
-      "blockClass": ["banner-institucionale"]
+      "blockClass": [
+        "banner-institucionale"
+      ]
     },
     "title": "Line banner"
   },
-  "image#banner-entrega":{
-    "props":{
+  "image#banner-entrega": {
+    "props": {
       "src": "assets/banners/banner-institucional.jpg"
     }
   },
   "flex-layout.row#title-entrega": {
-    "children": ["rich-text#title-entrega"],
+    "children": [
+      "rich-text#title-entrega"
+    ],
     "props": {
       "marginTop": 6,
       "fullWidth": true,
-      "blockClass": ["title","centralizer","centralizer-institucional"]
+      "blockClass": [
+        "title",
+        "centralizer",
+        "centralizer-institucional"
+      ]
     },
     "title": "Line título"
   },
@@ -39,10 +48,16 @@
     }
   },
   "flex-layout.row#entrega-content": {
-    "children": ["rich-text#description-entrega"],
+    "children": [
+      "rich-text#description-entrega"
+    ],
     "props": {
       "fullWidth": false,
-      "blockClass": ["description","centralizer","centralizer-institucional"]
+      "blockClass": [
+        "description",
+        "centralizer",
+        "centralizer-institucional"
+      ]
     },
     "title": "Line conteúdo"
   },

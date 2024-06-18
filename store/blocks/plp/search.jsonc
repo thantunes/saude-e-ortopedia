@@ -71,7 +71,6 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#h1-seo-tag",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
@@ -168,7 +167,6 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#h1-seo-tag",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",

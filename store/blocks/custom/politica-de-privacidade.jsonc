@@ -3,8 +3,7 @@
       "blocks": [
         //"flex-layout.row#banner-privacidade",
         "flex-layout.row#title-privacidade",
-        "flex-layout.row#privacidade-content",
-      "flex-layout.row#h1-seo-tag"
+        "flex-layout.row#privacidade-content"
       ]
     },
     "flex-layout.row#banner-privacidade": {

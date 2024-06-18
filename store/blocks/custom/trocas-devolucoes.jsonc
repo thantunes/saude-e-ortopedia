@@ -3,8 +3,7 @@
     "blocks": [
       //"flex-layout.row#banner-perguntas",
       "flex-layout.row#title-perguntas",
-      "flex-layout.row#perguntas-content",
-      "flex-layout.row#h1-seo-tag"
+      "flex-layout.row#perguntas-content"
     ]
   },
   "flex-layout.row#banner-perguntas": {

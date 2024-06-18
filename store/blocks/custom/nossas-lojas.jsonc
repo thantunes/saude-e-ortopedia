@@ -3,8 +3,7 @@
       "blocks": [
         //"flex-layout.row#banner-nossas-lojas",
         "flex-layout.row#title-nossas-lojas",
-        "flex-layout.row#nossas-lojas-content",
-      "flex-layout.row#h1-seo-tag"
+        "flex-layout.row#nossas-lojas-content"
       ]
     },
     "flex-layout.row#banner-nossas-lojas": {
