@@ -3,7 +3,8 @@
     "blocks": [
       //"flex-layout.row#banner-entrega",
       "flex-layout.row#title-entrega",
-      "flex-layout.row#entrega-content"
+      "flex-layout.row#entrega-content",
+      "flex-layout.row#h1-seo-tag"
     ]
   },
   "flex-layout.row#banner-entrega": {

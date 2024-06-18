@@ -71,6 +71,7 @@
 
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#h1-seo-tag",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
@@ -95,6 +96,11 @@
     "children": ["search-title.v2"],
     "props":{
       "blockClass": ["row-title-plp","centralizer"]
+    }
+  },
+  "search-title.v2": {
+    "props": {
+      "tag": "h2"
     }
   },
   "flex-layout.row#result": {
@@ -162,6 +168,7 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#h1-seo-tag",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",

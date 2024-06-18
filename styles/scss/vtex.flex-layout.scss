@@ -2,7 +2,7 @@
 
 .flexRowContent--centralizer{
   margin: 0 auto;
-  max-width: $maxWidth;
+  max-width: $maxWidth !important;
   width: 100%;
   @media(max-width: 1024px){
     padding-left: 10px;
@@ -25,11 +25,6 @@
   }
 }
 
-.flexRow--main-header,
-.flexRow--main-header-mobile{
-  background: #fff;
-}
-
 .flexRowContent--main-banners{
   column-gap: 15px;
   .flexCol--main-banner-02{
@@ -46,6 +41,13 @@
 .flexRow--main2-header-mobile{
   background: white;
 }
+
+.flexRowContent--main-header{
+  padding-top: 5px;
+  padding-bottom: 1vh;
+  align-items: center;
+}
+
 
 .flexRowContent--main-header-mobile{
   padding-top: 5px;
@@ -318,4 +320,9 @@
   .stretchChildrenWidth {
     width: 100% !important;
   }
+}
+
+.flexRow--main-header,
+.flexRow--main-header-mobile{
+  background: #fff !important;
 }

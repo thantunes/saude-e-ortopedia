@@ -33,12 +33,13 @@
     }
 
     .autoCompleteOuterContainer{
-      background-color:#F4F4F4;
+      background-color:#F4F4F4 !important;
       border: 0;
       width: 100%;
+      box-shadow: none !important;
       @media(min-width: 1024px){
-        background-color:#fafafa;
-        border: 1px solid #DDDDDD;
+        background-color:#fafafa !important;
+        border: 1px solid #DDDDDD !important;
         border-radius: $radius;
         max-width: 650px;
         float: right;
@@ -74,7 +75,7 @@
         display: block;
         width: 17px;
         height: 17px;
-        background-image: url("assets/icon-search.png");
+        background-image: url("assets/icon-search.png") !important;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;

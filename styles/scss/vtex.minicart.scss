@@ -16,12 +16,12 @@
       padding-right: 10px;
       display: flex;
       .minicartIconContainer{
-        background-image: url("assets/ico-cart.png"); 
+        background-image: url("assets/ico-cart.png") !important;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
-        width: 32px;
-        height: 30px;
+        width: 32px !important;
+        height: 30px !important;
         .cartIcon{
           display: none;
         }
@@ -32,8 +32,8 @@
             top: -5px;
             right: -10px;
           }
-          background: #8A878D;
-          color: #fff;
+          background: #8A878D !important;
+          color: #fff !important;
           font-weight: 700;
         }
         @media(max-width: 1024px){
