@@ -164,11 +164,6 @@
   }
 }
 
-.container--blog-title {
-  max-width: 1272px !important;
-  margin: 0 auto;
-}
-
 .container--titleSection,
 :global(.vtex-store-components-3-x-productDescriptionTitle),
 :global(.vtex-reviews-and-ratings-2-x-reviewsHeading),
@@ -196,7 +191,8 @@
   }
 
   .heading,
-  .link {
+  .link,
+  .paragraph {
     font-size: 22px;
     font-family: 'Montserrat';
     font-weight: 600;
@@ -211,6 +207,12 @@
       text-align: center;
     }
   }
+}
+
+.container--blog-title {
+  max-width: 1272px !important;
+  margin: 0 auto;
+  border: none;
 }
 
 .paragraph--footer-contact-info,
