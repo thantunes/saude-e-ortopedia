@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#h1-seo-tag",
       "blog",
       "flex-layout.row#main-banners",
       //"__fold__.experimentalLazyAssets",

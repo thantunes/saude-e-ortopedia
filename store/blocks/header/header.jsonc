@@ -19,6 +19,7 @@
     ]
   },
   "flex-layout.row#h1-seo-tag": {
+    "title": "H1 SEO Tag",
     "children": [
       "rich-text#h1-tag-hide"
     ],
@@ -31,8 +32,7 @@
   },
   "flex-layout.row#telemarketing": {
     "children": [
-      "telemarketing",
-      "flex-layout.row#h1-seo-tag"
+      "telemarketing"
     ],
     "props": {
       "fullWidth": true
@@ -254,8 +254,7 @@
   "sticky-layout#1-mobile": {
     "children": [
       "flex-layout.row#1-mobile",
-      "flex-layout.row#2-mobile",
-      "flex-layout.row#h1-seo-tag"
+      "flex-layout.row#2-mobile"
     ],
     "props": {
       "blockClass": "mobile-sticky-header"
