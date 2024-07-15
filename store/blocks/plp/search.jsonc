@@ -68,6 +68,7 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      // "SEOCategoryTag",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
@@ -198,6 +199,7 @@
   },
   "search-result-layout.mobile": {
     "children": [
+      // "SEOCategoryTag",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
